@@ -37,19 +37,19 @@ const LanguageControl = () => {
           onClick={() => {
             i18n.changeLanguage("kr");
           }}>
-            <SvgKR width="1" height="1" />
+            <SvgKR/>
         </StyledButton>
         <StyledButton
           onClick={() => {
             i18n.changeLanguage("pl");
           }}>
-            <SvgPL width="10px" height="10px" />
+            <SvgPL/>
         </StyledButton>
         <StyledButton
           onClick={() => {
             i18n.changeLanguage("en");
           }}>
-            <SvgGB width="10px" height="10px" />
+            <SvgGB/>
         </StyledButton>
         
       </StyledDiv>

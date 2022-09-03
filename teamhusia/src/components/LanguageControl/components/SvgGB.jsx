@@ -4,8 +4,8 @@ const SvgGB = (width, height) => {
     xmlns="http://www.w3.org/2000/svg" 
     version="1.1"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    width={width} 
-    height={height} 
+    width="100%" 
+    height="100%"
     style={{borderRadius:"50%"}} 
     viewBox="0 0 512 512">
       <path fill="#fff" d="m0 0 8 22-8 23v23l32 54-32 54v32l32 48-32 48v32l32 54-32 54v68l22-8 23 8h23l54-32 54 32h32l48-32 48 32h32l54-32 54 32h68l-8-22 8-23v-23l-32-54 32-54v-32l-32-48 32-48v-32l-32-54 32-54V0l-22 8-23-8h-23l-54 32-54-32h-32l-48 32-48-32h-32l-54 32L68 0H0z"/>
