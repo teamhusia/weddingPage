@@ -1,4 +1,5 @@
 import Invitation from "../Invitation"
+import LanguageControl from "../LanguageControl";
 import ProgressiveBackground from '../ProgressiveBackground';
 import { colors } from "../../theme/colors";
 import styled from "styled-components"
@@ -19,6 +20,7 @@ const FrontPage = () => {
       fullImageSrc="/stars1-edited.png"
       miniatureSrc="/stars1-edited-mini.png">
       <StyledDiv>
+        <LanguageControl />
         <Invitation />
       </StyledDiv>
     </ProgressiveBackground>

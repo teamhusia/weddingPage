@@ -2,12 +2,14 @@ import Button from '@mui/material/Button';
 import styled from "styled-components"
 import { useTranslation } from "react-i18next";
 
+const StyledDiv = styled.div`
+  white-space: pre-line;
+  padding: 3em 5em 3em 5em ;
+`;
+
 const InvitationContent = () => {  
   const { t, i18n } = useTranslation();
   
-  const StyledDiv = styled.div`
-  white-space: pre-line;
-`;
   return (
     <StyledDiv>
       <h2>{t("INVITATION_HEADER")}</h2>

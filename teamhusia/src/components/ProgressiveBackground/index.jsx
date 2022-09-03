@@ -8,14 +8,14 @@ const ProgressiveBackground = ({
   const [backgroundURL, setBackgroundURL] = useState(miniatureSrc);
   const [isLoaded, setIsLoaded] = useState(false);
 
-  useEffect(() => {
-    const img = new Image();
-    img.src = fullImageSrc;
-    img.onload = () => {
-      setBackgroundURL(fullImageSrc);
-      setIsLoaded(true);
-    };
-  }, [fullImageSrc]);
+  // useEffect(() => {
+  //   const img = new Image();
+  //   img.src = fullImageSrc;
+  //   img.onload = () => {
+  //     setBackgroundURL(fullImageSrc);
+  //     setIsLoaded(true);
+  //   };
+  // }, [fullImageSrc]);
 
   return (
     <div
@@ -41,8 +41,8 @@ const ProgressiveBackground = ({
             background: `url(${backgroundURL}) no-repeat center fixed`,
             backgroundSize: "cover",
             // filter: "blur(8px)",
-            filter: isLoaded ? "" : "blur(8px)",
-            transition: "filter 0.5s"
+            filter: isLoaded ? "blur(10px)" : "blur(10px)",
+            transition: "filter 1s"
           }}
         ></div>
       </div>

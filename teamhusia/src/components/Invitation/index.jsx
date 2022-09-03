@@ -1,4 +1,5 @@
 import InvitationContent from "./components/InvitationContent";
+import LanguageControl from "../LanguageControl";
 import { colors } from "../../theme/colors";
 import styled from "styled-components";
 
@@ -9,14 +10,14 @@ const StyledDiv = styled.div`
   background-color: ${colors.beigeWarm};
   background: url('/pobrane.png') repeat ;
   border-radius: 1em;
-  /* color: ${colors.beigeWarm}; */
-  padding: 4em 5em 9em 5em;
+  overflow: hidden;
   transition: 'height 2s';
 `;
 
 const Invitation = () => {
   return (
     <StyledDiv>
+      {/* <LanguageControl/> */}
       <InvitationContent />    
     </StyledDiv>
   );
