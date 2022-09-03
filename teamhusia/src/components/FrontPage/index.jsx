@@ -13,7 +13,6 @@ const StyledDiv = styled.div`
   min-height: 100vh;
   background-size: cover;
   color: ${colors.darkNavy};
-  /* padding-bottom: 2em; */
 `;
 const FrontPage = () => {
   return (

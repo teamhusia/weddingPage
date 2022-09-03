@@ -42,7 +42,7 @@ const ProgressiveBackground = ({
             backgroundSize: "cover",
             // filter: "blur(8px)",
             filter: isLoaded ? "blur(10px)" : "blur(10px)",
-            transition: "filter 1s"
+            transition: "filter 1s background 1s background-color 1s"
           }}
         ></div>
       </div>
