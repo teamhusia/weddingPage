@@ -5,7 +5,7 @@ import styled from "styled-components";
 import { useTranslation } from "react-i18next";
 
 const StyledDiv = styled.div`
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: column;
   gap: 10px;
