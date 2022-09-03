@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 
 const Container = styled.div`
   /* background-color: ${colors.lightNavy}; */
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   justify-content: center;
 `;
@@ -16,7 +16,7 @@ const StyledDiv = styled.div`
   display: flex;
   flex-direction: row;
   gap: 10px;
-  padding: 2em 1em;
+  padding: 2em 0;
   z-index: 5;
 `;
 
