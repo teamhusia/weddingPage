@@ -1,5 +1,4 @@
 import InvitationContent from "./components/InvitationContent";
-import LanguageControl from "../LanguageControl";
 import { colors } from "../../theme/colors";
 import styled from "styled-components";
 

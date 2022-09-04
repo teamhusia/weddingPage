@@ -10,7 +10,6 @@ i18next
   .use(initReactI18next)
   .init({
     resources: { en, pl, kr },
-    lng: "en",
     debug: false,
     ns: ["translations"],
     defaultNS: "translations",
