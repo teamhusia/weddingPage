@@ -8,7 +8,7 @@ const StyledDiv = styled.div`
   width: fit-content;
   height: fit-content;
   background-color: ${colors.beigeWarm};
-  background: url('/pobrane.png') repeat ;
+  //background: url('/pobrane.png') repeat ;
   border-radius: 1em;
   overflow: hidden;
   transition: 'height 2s';
@@ -17,7 +17,6 @@ const StyledDiv = styled.div`
 const Invitation = () => {
   return (
     <StyledDiv>
-      {/* <LanguageControl/> */}
       <InvitationContent />    
     </StyledDiv>
   );
