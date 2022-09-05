@@ -40,8 +40,7 @@ const ProgressiveBackground = ({
             transform: "scale(1.2)",
             background: `url(${backgroundURL}) no-repeat center fixed`,
             backgroundSize: "cover",
-            // filter: "blur(8px)",
-            filter: isLoaded ? "blur(10px)" : "blur(10px)",
+            filter: isLoaded ? "blur(7px)" : "blur(7px)",
             transition: "filter 1s background 1s background-color 1s"
           }}
         ></div>

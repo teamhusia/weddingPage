@@ -17,8 +17,8 @@ const StyledDiv = styled.div`
 const FrontPage = () => {
   return (
     <ProgressiveBackground
-      fullImageSrc="/stars1-edited.png"
-      miniatureSrc="/stars1-edited-mini.png">
+      fullImageSrc="/stars-edited.jpg"
+      miniatureSrc="/stars-edited-small.jpg">
       <StyledDiv>
         <LanguageControl />
         <Invitation />

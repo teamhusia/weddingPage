@@ -23,12 +23,10 @@ const Bold = styled.div`
 
 const InvitationContent = () => {  
   const { t, i18n } = useTranslation();
-
-  console.log(i18n);
   
   return (
     <StyledDiv>
-      <h2>{t("INVITATION_HEADER")}</h2>
+      {i18n.language === 'en' && <h2>{t("INVITATION_HEADER")}</h2>}
       <h1>{t("INVITATION_NAMES")}</h1>
       <h2>{t("INVITATION_NAMES_2")}</h2>
       <p>{t("INVITATION_TEXT")}</p>
@@ -43,9 +41,6 @@ const InvitationContent = () => {
           {KR_SIGNATURE.BRIDE.map((el, index) => <span key={index}>{index===5 ? <Bold>{el}</Bold> : el}</span>)}
         </NamesGrid>
       )}
-
-      {/* <p>{t("INVITATION_KR_NAMES_GROOM")}</p>
-      <p>{t("INVITATION_KR_NAMES_BRIDE")}</p> */}
       
       <Button variant="contained" size="large">{t("INVITATION_RSVP_BUTTON")}</Button>
     </StyledDiv>
