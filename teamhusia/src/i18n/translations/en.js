@@ -8,8 +8,7 @@ export const en = {
     INVITATION_DATE: "Sunday, August 13, 2023",
     INVITATION_TIME: "at three in the afternoon",
     INVITATION_PLACE: "Fara Poznańska",
-    INVITATION_PLACE_2:
-      "Dinner and dancing to follow at Stary Kamionek\nPlease RSVP by NO IDEA YET",
+    INVITATION_PLACE_2: "Dinner and dancing to follow at Stary Kamionek",
     INVITATION_RSVP_BUTTON: "RSVP"
   }
 };

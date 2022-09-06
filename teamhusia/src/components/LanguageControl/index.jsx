@@ -7,8 +7,10 @@ import { useTranslation } from "react-i18next";
 
 const Container = styled.div`
   /* background-color: ${colors.lightNavy}; */
-  /* width: 100%; */
+  width: fit-content;
   display: flex;
+  align-items: center;
+  align-content: center;
   justify-content: center;
 `;
 
@@ -50,9 +52,9 @@ const LanguageControl = () => {
             i18n.changeLanguage("en");
           }}>
             <SvgGB/>
-        </StyledButton>
-        
+        </StyledButton>        
       </StyledDiv>
+      
     </Container>
   );
 };

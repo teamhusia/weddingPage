@@ -1,7 +1,7 @@
 export const pl = {
   translations: {
     INVITATION_HEADER: "",
-    INVITATION_NAMES: "Katarzyna Koprowska \ni \nHeungjae Choi",
+    INVITATION_NAMES: "Katarzyna Koprowska \n&\nHeungjae Choi",
     INVITATION_NAMES_2: "wraz z Rodzicami",
     INVITATION_TEXT:
       "mają zaszczyt zaprosić Was na uroczystość zaślubin,\nktóra odbędzie się dnia",

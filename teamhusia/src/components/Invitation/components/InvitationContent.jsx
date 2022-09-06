@@ -1,11 +1,10 @@
-import Button from '@mui/material/Button';
 import { KR_SIGNATURE } from '../../../i18n/translations/kr';
 import styled from "styled-components"
 import { useTranslation } from "react-i18next";
 
 const StyledDiv = styled.div`
   white-space: pre-line;
-  padding: 3em 5em 3em 5em ;
+  padding: 3em 5em 3em 5em;
 `;
 
 const NamesGrid = styled.div`
@@ -17,8 +16,14 @@ const NamesGrid = styled.div`
   margin: 3em 0;
 `;
 
-const Bold = styled.div`
+const Bold = styled.span`
   font-weight: bold;
+  `;
+
+const NoWrapSpan = styled.span`
+  display: inline-block;
+  min-width: fit-content;
+  white-space: nowrap;  
 `;
 
 const InvitationContent = () => {  
@@ -37,12 +42,26 @@ const InvitationContent = () => {
       
       {i18n.language === 'kr' && (
         <NamesGrid>
-          {KR_SIGNATURE.GROOM.map((el, index) => <span key={index}>{index===5 ? <Bold>{el}</Bold> : el}</span>)}
-          {KR_SIGNATURE.BRIDE.map((el, index) => <span key={index}>{index===5 ? <Bold>{el}</Bold> : el}</span>)}
-        </NamesGrid>
+          {KR_SIGNATURE.GROOM.map((el, index) => <span key={index}>
+            {
+              index === 5 
+              ? <Bold><NoWrapSpan>{el}</NoWrapSpan></Bold> 
+              : index > 2 
+              ? <NoWrapSpan>{el}</NoWrapSpan> 
+              : <span>{el}</span>
+            }
+          </span>)}
+          {KR_SIGNATURE.BRIDE.map((el, index) => <span key={index}>
+            {
+              index === 5 
+              ? <Bold><NoWrapSpan>{el}</NoWrapSpan></Bold> 
+              : index > 2 
+              ? <NoWrapSpan>{el}</NoWrapSpan> 
+              : <span>{el}</span>
+            }
+          </span>)}
+          </NamesGrid>
       )}
-      
-      <Button variant="contained" size="large">{t("INVITATION_RSVP_BUTTON")}</Button>
     </StyledDiv>
   )
 }

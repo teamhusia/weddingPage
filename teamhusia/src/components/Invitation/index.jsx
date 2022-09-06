@@ -1,5 +1,3 @@
-// import HeaderImage from "./components/HeaderImage";
-
 import InvitationContent from "./components/InvitationContent";
 import { colors } from "../../theme/colors";
 import styled from "styled-components";
@@ -22,8 +20,6 @@ const StyledDiv = styled.div`
 const Invitation = () => {
   return (
     <StyledDiv>
-      {/* <HeaderImage src="/teamhusia-cut-opt.jpg" alt="The groom Heungjae and the bride Katarzyna"/> */}
-      {/* <HeaderImage src="/teamhusia-opt.jpg" alt="The groom Heungjae and the bride Katarzyna"/> */}
       <InvitationContent />    
     </StyledDiv>
   );
