@@ -7,6 +7,7 @@ import styled from "styled-components";
 const StyledDiv = styled.div`
   text-align: center;
   width: fit-content;
+  max-width: 100vw;
   height: fit-content;
   background-color: ${colors.beigeWarm};
   background: url('/noise-texture.png') repeat ;
@@ -21,6 +22,7 @@ const StyledDiv = styled.div`
 const Invitation = () => {
   return (
     <StyledDiv>
+      {/* <HeaderImage src="/teamhusia-cut-opt.jpg" alt="The groom Heungjae and the bride Katarzyna"/> */}
       {/* <HeaderImage src="/teamhusia-opt.jpg" alt="The groom Heungjae and the bride Katarzyna"/> */}
       <InvitationContent />    
     </StyledDiv>
