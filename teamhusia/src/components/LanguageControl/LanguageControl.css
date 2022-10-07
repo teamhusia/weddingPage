@@ -11,6 +11,7 @@
   background-color: rgba(0, 0, 0, 0);
   border: none;
   height: 3em;
+  width: 3em;
   overflow: hidden;
   cursor: pointer;
 }
