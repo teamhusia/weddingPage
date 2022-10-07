@@ -9,13 +9,16 @@
 
 .icon-button {
   background-color: rgba(0, 0, 0, 0);
+  width: fit-content;
+  height: fit-content;
   border: none;
-  height: 3em;
-  width: 3em;
   overflow: hidden;
   cursor: pointer;
+  padding: none;
 }
 
 .icon-button img {
   border-radius: 50%;
+  height: 3em;
+  width: 3em;
 }
