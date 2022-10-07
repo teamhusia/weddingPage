@@ -1,18 +1,9 @@
 import "./LanguageControl.css";
 
-import SvgGB from "./components/SvgGB";
-import SvgKR from "./components/SvgKR";
-import SvgPL from "./components/SvgPL";
+import IconGB from "./components/IconGB";
+import IconKR from "./components/IconKR";
+import IconPL from "./components/IconPL";
 import { useTranslation } from "react-i18next";
-
-// const Container = styled.div`
-//   /* background-color: ${colors.lightNavy}; */
-//   width: fit-content;
-//   display: flex;
-//   align-items: center;
-//   align-content: center;
-//   justify-content: center;
-// `;
 
 const LanguageControl = () => {
   const { t, i18n } = useTranslation();
@@ -25,7 +16,7 @@ const LanguageControl = () => {
           i18n.changeLanguage("kr");
         }}
       >
-        <SvgKR />
+        <IconKR />
       </button>
       <button
         className="icon-button"
@@ -33,7 +24,7 @@ const LanguageControl = () => {
           i18n.changeLanguage("pl");
         }}
       >
-        <SvgPL />
+        <IconPL />
       </button>
       <button
         className="icon-button"
@@ -41,7 +32,7 @@ const LanguageControl = () => {
           i18n.changeLanguage("en");
         }}
       >
-        <SvgGB />
+        <IconGB />
       </button>
     </div>
   );
