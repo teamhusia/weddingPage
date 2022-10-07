@@ -8,10 +8,10 @@ const StyledDiv = styled.div`
   max-width: 100vw;
   height: fit-content;
   background-color: ${colors.beigeWarm};
-  background: url('/noise-texture.png') repeat ;
+  background: url("/noise-texture.png") repeat;
   border-radius: 1em;
   overflow: hidden;
-  transition: 'height 2s';
+  transition: "height 2s";
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +20,7 @@ const StyledDiv = styled.div`
 const Invitation = () => {
   return (
     <StyledDiv>
-      <InvitationContent />    
+      <InvitationContent />
     </StyledDiv>
   );
 };
