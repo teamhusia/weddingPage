@@ -15,7 +15,21 @@ export const kr = {
     INVITATION_PLACE_2:
       "피로연 시간 및 장소: 2023년 8월 13일 오후 5시 (유럽 서머타임), 폴란드 카미오넥 62-280, 카미오넥 12, 스타르 카미오넥",
     LINK_LABEL: "구글맵",
-    INVITATION_RSVP_BUTTON: "RSVP"
+    INVITATION_RSVP_BUTTON: "RSVP",
+    CEREMONY_LOC_TITLE: "The ceremony",
+    CEREMONY_LOC_DESCRIPTION:
+      "Our wedding ceremony will be held at the Poznań Fara — a beautiful Roman Catholic basilica located in the very heart of the Old Town district in Poznań.",
+    CELEBRATION_LOC_TITLE: "The celebration",
+    CELEBRATION_LOC_DESCRIPTION:
+      "Once our vows are completed, we would like to invite you to join us at our celebratory party venue in Stary Kamionek.",
+    ACCOMODATION_LOC_TITLE: "Accomodation",
+    ACCOMODATION_LOC_DESCRIPTION:
+      "In case you were looking for an after-party accomodation, we would like to recommend the Hotel Ilon Podolany.",
+    MENU_HOME: "HOME",
+    MENU_ROADMAP: "ROADMAP",
+    MENU_TEAM: "TEAM",
+    MENU_CONTACT: "CONTACT",
+    GOOGLE_MAPS_BTN: "Open in Google Maps"
   }
 };
 

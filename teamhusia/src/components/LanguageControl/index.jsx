@@ -11,7 +11,9 @@ const LanguageControl = () => {
   return (
     <div className="language-control">
       <button
-        className="icon-button"
+        className={`icon-button ${
+          i18n.language === "kr" ? "active" : "inactive"
+        }`}
         onClick={() => {
           i18n.changeLanguage("kr");
         }}
@@ -19,7 +21,9 @@ const LanguageControl = () => {
         <IconKR />
       </button>
       <button
-        className="icon-button"
+        className={`icon-button ${
+          i18n.language === "pl" ? "active" : "inactive"
+        }`}
         onClick={() => {
           i18n.changeLanguage("pl");
         }}
@@ -27,7 +31,9 @@ const LanguageControl = () => {
         <IconPL />
       </button>
       <button
-        className="icon-button"
+        className={`icon-button ${
+          i18n.language === "en" ? "active" : "inactive"
+        }`}
         onClick={() => {
           i18n.changeLanguage("en");
         }}

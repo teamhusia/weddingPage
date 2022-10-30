@@ -1,7 +1,7 @@
 .card {
   text-align: center;
   height: fit-content;
-  background-color: "#e6e1da";
+  background-color: "#e3ded7";
   background: url("./../../../public/noise-texture.png") repeat;
   border-radius: 1em;
   transition: "height 2s";
@@ -14,10 +14,12 @@
   max-width: 80vw;
 }
 
+.card.browser p {
+  margin: 1em 3em;
+}
+
 .card.mobile {
-  /* width: calc(100vw - 1em); */
   width: 100%;
-  /* margin: 5px; */
 }
 
 .card-content {
@@ -43,16 +45,24 @@
   margin-bottom: 1em;
 }
 
-.card .row {
-  display: flex;
-  flex-direction: row;
+.roadmap .card.mobile {
+  /* max-width: min(100%, 600px); */
 }
 
-.row > .left {
-  width: 50%;
+.roadmap .card.browser {
+  min-width: 50vw;
+  max-width: 60vw;
 }
 
-.row > .right {
-  width: 50%;
-  background-color: purple;
+.roadmap .card.browser p {
+  padding: 2em 0;
+  max-width: 800px;
+}
+
+.card.invitation {
+  margin-bottom: 5em;
+}
+
+.card.contact {
+  margin: 5em 0;
 }

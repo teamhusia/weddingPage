@@ -1,11 +1,13 @@
 import Contact from "../Contact";
 import Invitation from "../Invitation";
 import LanguageControl from "../LanguageControl";
+import Menu from "../Menu";
 import ProgressiveBackground from "../ProgressiveBackground";
 import Roadmap from "../Roadmap";
 import Team from "../Team";
 import { colors } from "../../theme/colors";
 import styled from "styled-components";
+import { useState } from "react";
 
 const StyledDiv = styled.div`
   display: flex;
@@ -20,18 +22,21 @@ const StyledDiv = styled.div`
 `;
 const FrontPage = () => {
   return (
-    <ProgressiveBackground
-      fullImageSrc="/stars-edited.jpg"
-      miniatureSrc="/stars-edited-small.jpg"
-    >
-      <StyledDiv>
-        <LanguageControl />
-        <Invitation />
-        <Roadmap />
-        <Team />
-        <Contact />
-      </StyledDiv>
-    </ProgressiveBackground>
+    <div>
+      <ProgressiveBackground
+        fullImageSrc="/stars-edited.jpg"
+        miniatureSrc="/stars-edited-small.jpg"
+      >
+        {/* <Menu /> */}
+        <StyledDiv>
+          {/* <LanguageControl /> */}
+          <Invitation />
+          {/* <Roadmap /> */}
+          {/* <Team /> */}
+          {/* <Contact /> */}
+        </StyledDiv>
+      </ProgressiveBackground>
+    </div>
   );
 };
 

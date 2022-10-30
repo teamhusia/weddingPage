@@ -1,0 +1,112 @@
+.menu {
+  color: #fff;
+  position: sticky;
+  width: 100vw;
+  position: -webkit-sticky;
+  top: -3.5em;
+  margin-bottom: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 100;
+}
+
+.menu-content {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: stretch;
+  /* padding: 2em 1em; */
+  height: 50vh;
+  width: 100vw;
+  color: #fff;
+  background-color: #0a0c14;
+  transition: margin-top 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.menu-header {
+  height: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 0.2em;
+  justify-content: center;
+  color: rgb(121, 142, 171);
+}
+
+.menu-content .lang-ctrl-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0a0c14;
+}
+
+.menu-content.closed {
+  /* margin-top: 0; */
+  margin-top: -50vh;
+}
+
+.menu-content.open {
+  margin-top: 0em;
+}
+
+.menu .toggle-btn {
+  background-color: #0a0c14;
+  border-radius: 0 0 1em 1em;
+  color: #fff;
+  border: none;
+  padding: 1.6em 2em 0.1em 2em;
+  margin-top: -1.5em;
+  transition: padding 0.4s cubic-bezier(0.075, 0.82, 0.165, 1),
+    letter-spacing 0.2s ease-out;
+  font-size: 12px;
+}
+
+.menu .toggle-btn:hover {
+  padding: 1.6em 3em 0.1em 3em;
+  letter-spacing: 0.1rem;
+}
+
+.navigation-list {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 2em 0;
+}
+
+.navigation-list a {
+  height: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out;
+}
+
+.navigation-list .divider {
+  align-self: center;
+  display: block;
+  min-height: 1px;
+  width: 40vw;
+  background-color: rgba(255, 255, 255, 0.323);
+}
+
+.navigation-list a:hover {
+  background-color: #0f111b;
+}
+
+.navigation-list a:active,
+.navigation-list a.selected {
+  background-color: #161825;
+}
+
+.link.inactive {
+  color: #737172;
+}
+
+.link:hover {
+  background-color: #181920;
+}

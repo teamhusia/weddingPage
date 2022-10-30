@@ -7,9 +7,9 @@ import {
   isMobile
 } from "react-device-detect";
 
-const Card = ({ children }) => {
+const Card = ({ children, className }) => {
   return (
-    <>
+    <div className={className}>
       <BrowserView>
         <div className="card browser">
           <div className="card-content">{children}</div>
@@ -20,7 +20,7 @@ const Card = ({ children }) => {
           <div className="card-content">{children}</div>
         </div>
       </MobileView>
-    </>
+    </div>
   );
 };
 

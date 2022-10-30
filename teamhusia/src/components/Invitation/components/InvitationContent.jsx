@@ -9,7 +9,7 @@ import { useTranslation } from "react-i18next";
 
 const StyledDiv = styled.div`
   white-space: pre-line;
-  padding: 2em 1.5em 4em 1.5em;
+  padding: 1.5em 1.5em 4em 1.5em;
   /* padding: 3em 5em 3em 5em; */
 `;
 
@@ -80,37 +80,13 @@ const InvitationContent = () => {
 
       {i18n.language === "kr" ? (
         <Box textAlign="left" fontWeight="bold" maxWidth="800px">
-          <p>
-            {t("INVITATION_PLACE")}
-            {" ("}
-            <Link href={FARA_MAPS_URL} target="#" underline="always">
-              {t("LINK_LABEL")}
-            </Link>
-            {")"}
-          </p>
-          <p>
-            {t("INVITATION_PLACE_2")}
-            {" ("}
-            <Link href={STARY_KAMIONEK_MAPS_URL} target="#" underline="always">
-              {t("LINK_LABEL")}
-            </Link>
-            {")"}
-          </p>
+          <p>{t("INVITATION_PLACE")}</p>
+          <p>{t("INVITATION_PLACE_2")}</p>
         </Box>
       ) : (
         <>
-          <p>
-            {t("INVITATION_PLACE")}
-            <Link href={FARA_MAPS_URL} target="#">
-              <RoomIcon />
-            </Link>
-          </p>
-          <p>
-            {t("INVITATION_PLACE_2")}
-            <Link href={STARY_KAMIONEK_MAPS_URL} target="#">
-              <RoomIcon />
-            </Link>
-          </p>
+          <p>{t("INVITATION_PLACE")}</p>
+          <p>{t("INVITATION_PLACE_2")}</p>
         </>
       )}
     </StyledDiv>

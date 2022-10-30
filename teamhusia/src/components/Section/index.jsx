@@ -7,20 +7,18 @@ import {
   isMobile
 } from "react-device-detect";
 
-const Section = ({ children, className }) => {
+const Section = ({ children, className, first }) => {
   return (
-    <>
+    <div style={{ padding: 0, margin: 0 }}>
       <BrowserView>
-        <section className={`${className} main-section browser`}>
-          {children}
-        </section>
+        <section className={`main-section browser`}>{children}</section>
       </BrowserView>
       <MobileView>
-        <section className={`${className} main-section mobile`}>
+        <section className={`main-section mobile ${first ? "first" : ""}`}>
           {children}
         </section>
       </MobileView>
-    </>
+    </div>
   );
 };
 

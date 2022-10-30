@@ -34,7 +34,7 @@ const ProgressiveBackground = ({ children, miniatureSrc, fullImageSrc }) => {
             width: "100%",
             height: "100%",
             transform: "scale(1.2)",
-            backgroundColor: "blue",
+            backgroundColor: "#12172a",
             backgroundImage: `url(${backgroundURL})`,
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",

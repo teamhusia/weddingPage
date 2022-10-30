@@ -1,10 +1,21 @@
 import "./GoogleMapsLink.css";
 
+import { Button } from "@mui/material";
+import { useTranslation } from "react-i18next";
+
 const GoogleMapsLink = ({ url }) => {
+  const { t, i18n } = useTranslation();
   return (
-    <a className="google-maps-btn" href={url} target="#">
-      Open in Google Maps
-    </a>
+    <Button
+      href={url}
+      variant="contained"
+      color="primary"
+      size="large"
+      target={"_blank"}
+      sx={{ borderRadius: "1em" }}
+    >
+      {t("GOOGLE_MAPS_BTN")}
+    </Button>
   );
 };
 
