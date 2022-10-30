@@ -1,0 +1,10 @@
+.google-maps-btn {
+  box-sizing: border-box;
+  padding: 2em 1em;
+  border-radius: 1em;
+  background-color: #dba83f;
+  color: #000;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+}

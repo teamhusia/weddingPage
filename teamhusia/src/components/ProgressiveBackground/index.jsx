@@ -1,10 +1,6 @@
 import { useEffect, useState } from "react";
 
-const ProgressiveBackground = ({
-  children,
-  miniatureSrc,
-  fullImageSrc
-}) => {
+const ProgressiveBackground = ({ children, miniatureSrc, fullImageSrc }) => {
   const [backgroundURL, setBackgroundURL] = useState(miniatureSrc);
   const [isLoaded, setIsLoaded] = useState(false);
 
@@ -38,10 +34,13 @@ const ProgressiveBackground = ({
             width: "100%",
             height: "100%",
             transform: "scale(1.2)",
-            background: `url(${backgroundURL}) no-repeat center fixed`,
-            backgroundSize: "cover",
+            backgroundColor: "blue",
+            backgroundImage: `url(${backgroundURL})`,
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
             filter: isLoaded ? "blur(7px)" : "blur(7px)",
-            transition: "filter 1s background 1s background-color 1s"
+            transition: "filter 1s background 1s background-color 1s",
+            position: "fixed"
           }}
         ></div>
       </div>

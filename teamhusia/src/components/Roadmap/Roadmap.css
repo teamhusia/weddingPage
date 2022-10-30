@@ -1,0 +1,5 @@
+.roadmap-banner {
+  /* width: 100%; */
+  width: calc(100% - 1em);
+  border-radius: 1em;
+}

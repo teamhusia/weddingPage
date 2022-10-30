@@ -1,24 +1,42 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Montserrat', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Montserrat", sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #01040C;
+  background-color: #01040c;
   color: #fff;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: 400;
 }
 
 h1 {
-  font-family: 'Abril Fatface', serif;
-  font-size: 60px;
+  font-family: "Abril Fatface", serif;
+  font-size: min(11vw, 60px);
   line-height: 1.15;
-
 }
 
-h2, h3 {
+h2,
+h3 {
   font-family: Montserrat;
+}
+
+h2 {
+  font-size: min(8vw, 1.5em);
+}
+
+h3 {
+  font-size: min(4vw, 1.17em);
+}
+
+.column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

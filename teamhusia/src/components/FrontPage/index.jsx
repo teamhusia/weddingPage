@@ -1,8 +1,11 @@
-import Invitation from "../Invitation"
+import Contact from "../Contact";
+import Invitation from "../Invitation";
 import LanguageControl from "../LanguageControl";
-import ProgressiveBackground from '../ProgressiveBackground';
+import ProgressiveBackground from "../ProgressiveBackground";
+import Roadmap from "../Roadmap";
+import Team from "../Team";
 import { colors } from "../../theme/colors";
-import styled from "styled-components"
+import styled from "styled-components";
 
 const StyledDiv = styled.div`
   display: flex;
@@ -19,13 +22,17 @@ const FrontPage = () => {
   return (
     <ProgressiveBackground
       fullImageSrc="/stars-edited.jpg"
-      miniatureSrc="/stars-edited-small.jpg">
+      miniatureSrc="/stars-edited-small.jpg"
+    >
       <StyledDiv>
         <LanguageControl />
         <Invitation />
+        <Roadmap />
+        <Team />
+        <Contact />
       </StyledDiv>
     </ProgressiveBackground>
-  )
-}
+  );
+};
 
 export default FrontPage;

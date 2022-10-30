@@ -9,7 +9,8 @@ import { useTranslation } from "react-i18next";
 
 const StyledDiv = styled.div`
   white-space: pre-line;
-  padding: 3em 5em 3em 5em;
+  padding: 2em 1.5em 4em 1.5em;
+  /* padding: 3em 5em 3em 5em; */
 `;
 
 const NamesGrid = styled.div`
