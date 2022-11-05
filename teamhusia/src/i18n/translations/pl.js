@@ -18,7 +18,8 @@ export const pl = {
     CELEBRATION_LOC_DESCRIPTION:
       "Po Mszy Świętej zapraszamy naszych Gości na przyjęcie Weselne w Starym Kamionku.",
     ACCOMODATION_LOC_TITLE: "Nocleg",
-    ACCOMODATION_LOC_DESCRIPTION: "",
+    ACCOMODATION_LOC_DESCRIPTION:
+      "Dla Gości poszukujących miejsca noclegowego, serdecznie polecamy Hotel Ilon.",
     MENU_HOME: "ZAPROSZENIE",
     MENU_ROADMAP: "MAPA WYDARZEŃ",
     MENU_TEAM: "TEAM",
