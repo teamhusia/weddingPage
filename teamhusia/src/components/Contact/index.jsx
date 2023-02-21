@@ -7,20 +7,20 @@ import {
   isMobile
 } from "react-device-detect";
 
+import Board from "../Board";
 import Card from "../Card";
-import Footer from "../Footer";
-import Menu from "../Menu";
-import Section from "../Section";
 import { useTranslation } from "react-i18next";
 
 const Contact = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <div className="contact">
+    <section
+      id="section-contact"
+      className="contact min-fullscreen scroll-target"
+    >
       <BrowserView>
-        <Menu />
-        <Section>
+        <Board>
           <Card className="card-contact">
             <h1>{t("Contact")}</h1>
 
@@ -39,11 +39,10 @@ const Contact = () => {
               </div>
             </div>
           </Card>
-        </Section>
+        </Board>
       </BrowserView>
 
       <MobileView>
-        <Menu />
         <Card className="contact">
           <h1>{t("MENU_CONTACT")}</h1>
 
@@ -60,9 +59,8 @@ const Contact = () => {
             <p>PL 667 674 077</p>
           </div>
         </Card>
-        <Footer />
       </MobileView>
-    </div>
+    </section>
   );
 };
 

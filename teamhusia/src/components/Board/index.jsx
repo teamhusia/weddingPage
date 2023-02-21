@@ -1,4 +1,4 @@
-import "./Section.css";
+import "./Board.css";
 
 import {
   BrowserView,
@@ -7,19 +7,19 @@ import {
   isMobile
 } from "react-device-detect";
 
-const Section = ({ children, className, first }) => {
+const Board = ({ children, className, first }) => {
   return (
     <div style={{ padding: 0, margin: 0 }}>
       <BrowserView>
-        <section className={`main-section browser`}>{children}</section>
+        <div className={`main-section browser`}>{children}</div>
       </BrowserView>
       <MobileView>
-        <section className={`main-section mobile ${first ? "first" : ""}`}>
+        <div className={`main-section mobile ${first ? "first" : ""}`}>
           {children}
-        </section>
+        </div>
       </MobileView>
     </div>
   );
 };
 
-export default Section;
+export default Board;

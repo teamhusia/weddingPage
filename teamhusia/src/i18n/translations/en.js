@@ -23,6 +23,7 @@ export const en = {
     MENU_ROADMAP: "ROADMAP",
     MENU_TEAM: "TEAM",
     MENU_CONTACT: "CONTACT",
-    GOOGLE_MAPS_BTN: "Open in Google Maps",
+    MENU_RSVP: "RSVP",
+    GOOGLE_MAPS_BTN: "Open in Google Maps"
   }
 };

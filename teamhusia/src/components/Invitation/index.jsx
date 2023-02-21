@@ -1,20 +1,20 @@
+import Board from "../Board";
 import Card from "../Card";
-import Footer from "../Footer";
 import InvitationContent from "./components/InvitationContent";
-import Menu from "../Menu";
-import Section from "../Section";
 
 const Invitation = () => {
   return (
-    <div>
-      <Menu />
-      <Section>
+    <section
+      id="section-invitation"
+      className="scroll-target min-fullscreen"
+      style={{ marginTop: "-5.5em" }}
+    >
+      <Board>
         <Card className="invitation">
           <InvitationContent />
         </Card>
-      </Section>
-      {/* <Footer /> */}
-    </div>
+      </Board>
+    </section>
   );
 };
 export default Invitation;

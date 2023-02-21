@@ -29,6 +29,7 @@ export const kr = {
     MENU_ROADMAP: "ROADMAP",
     MENU_TEAM: "TEAM",
     MENU_CONTACT: "CONTACT",
+    MENU_RSVP: "RSVP",
     GOOGLE_MAPS_BTN: "Open in Google Maps"
   }
 };

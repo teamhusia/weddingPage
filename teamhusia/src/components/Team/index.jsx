@@ -7,30 +7,27 @@ import {
   isMobile
 } from "react-device-detect";
 
+import Board from "../Board";
 import Card from "../Card";
 import GoogleMapsLink from "../GoogleMapsLink";
-import Menu from "../Menu";
-import Section from "../Section";
 import { useTranslation } from "react-i18next";
 
 const Team = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <>
+    <section id="section-team" className="scroll-target">
       <BrowserView>
-        <Menu />
-        <Section>
-          <Card>Section</Card>
+        <Board>
+          <Card>Board</Card>
           <GoogleMapsLink url="https://goo.gl/maps/ZthM6nBdzNFefsbT7" />
-        </Section>
+        </Board>
       </BrowserView>
 
       <MobileView>
-        <Menu />
-        <Section>Section mobile</Section>
+        <Board>Board mobile</Board>
       </MobileView>
-    </>
+    </section>
   );
 };
 

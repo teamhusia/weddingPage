@@ -2,105 +2,105 @@ import "./Roadmap.css";
 
 import { BrowserView, MobileView } from "react-device-detect";
 
+import Board from "../Board";
 import Card from "../Card";
-import Footer from "../Footer";
 import GoogleMapsLink from "../GoogleMapsLink";
 import Image from "./components/Image";
-import Menu from "../Menu";
-import Section from "../Section";
 import { useTranslation } from "react-i18next";
 
 const Roadmap = ({}) => {
   const { t, i18n } = useTranslation();
 
   return (
-    <div className="roadmap">
-      <BrowserView>
-        <Menu />
-        <Section>
-          <Card>
-            <section>
-              <h1>{t("CEREMONY_LOC_TITLE")}</h1>
-              <Image
-                src="/R6__8443_Fara_landscape_cut2.jpg"
-                width="100%"
-                height="14em"
-              />
-              <p>{t("CEREMONY_LOC_DESCRIPTION")}</p>
-              <GoogleMapsLink url="https://goo.gl/maps/HUeqLMmVau3j2xDH7" />
-            </section>
-          </Card>
-        </Section>
-        <Section>
-          <Card>
-            <section>
-              <h1>{t("CELEBRATION_LOC_TITLE")}</h1>
-              <Image
-                src="/Stary_kamionek_cut1.jpg"
-                width="100%"
-                height="14em"
-              />
-              <p>{t("CELEBRATION_LOC_DESCRIPTION")}</p>
-              <GoogleMapsLink url="https://goo.gl/maps/wBc6bgRYD93waBHe8" />
-            </section>
-          </Card>
-        </Section>
-        <div className="last">
-          <Section>
+    <section id="section-roadmap" className="min-fullscreen scroll-target">
+      <div className="roadmap">
+        <BrowserView>
+          <Board>
             <Card>
-              <section>
-                <h1>{t("ACCOMODATION_LOC_TITLE")}</h1>
-                <Image src="/hotel.jpg" width="100%" height="14em" />
-                <p>{t("ACCOMODATION_LOC_DESCRIPTION")}</p>
-                <GoogleMapsLink url="https://goo.gl/maps/ZthM6nBdzNFefsbT7" />
-              </section>
+              <article>
+                <h1>{t("CEREMONY_LOC_TITLE")}</h1>
+                <Image
+                  src="/R6__8443_Fara_landscape_cut2.jpg"
+                  width="100%"
+                  height="14em"
+                />
+                <p>{t("CEREMONY_LOC_DESCRIPTION")}</p>
+                <GoogleMapsLink url="https://goo.gl/maps/HUeqLMmVau3j2xDH7" />
+              </article>
             </Card>
-          </Section>
-        </div>
-        <Footer />
-      </BrowserView>
+          </Board>
+          <Board>
+            <Card>
+              <article>
+                <h1>{t("CELEBRATION_LOC_TITLE")}</h1>
+                <Image
+                  src="/Stary_kamionek_cut1.jpg"
+                  width="100%"
+                  height="14em"
+                />
+                <p>{t("CELEBRATION_LOC_DESCRIPTION")}</p>
+                <GoogleMapsLink url="https://goo.gl/maps/wBc6bgRYD93waBHe8" />
+              </article>
+            </Card>
+          </Board>
+          <div className="last">
+            <Board>
+              <Card>
+                <article>
+                  <h1>{t("ACCOMODATION_LOC_TITLE")}</h1>
+                  <Image src="/hotel.jpg" width="100%" height="14em" />
+                  <p>{t("ACCOMODATION_LOC_DESCRIPTION")}</p>
+                  <GoogleMapsLink url="https://goo.gl/maps/ZthM6nBdzNFefsbT7" />
+                </article>
+              </Card>
+            </Board>
+          </div>
+        </BrowserView>
 
-      <MobileView>
-        <Menu />
-        <Section>
-          <Card>
-            <section>
-              <h1>{t("CEREMONY_LOC_TITLE")}</h1>
-              <Image
-                src="/R6__8443_Fara_landscape_cut2.jpg"
-                width="100%"
-                height="9em"
-              />
-              <p>{t("CEREMONY_LOC_DESCRIPTION")}</p>
-              <GoogleMapsLink url="https://goo.gl/maps/HUeqLMmVau3j2xDH7" />
-            </section>
-          </Card>
-        </Section>
-        <Section>
-          <Card>
-            <section>
-              <h1>{t("CELEBRATION_LOC_TITLE")}</h1>
-              <Image src="/Stary_kamionek_cut1.jpg" width="100%" height="9em" />
-              <p>{t("CELEBRATION_LOC_DESCRIPTION")}</p>
-              <GoogleMapsLink url="https://goo.gl/maps/wBc6bgRYD93waBHe8" />
-            </section>
-          </Card>
-        </Section>
-        <div className="last">
-          <Section>
+        <MobileView>
+          <Board>
             <Card>
-              <section>
-                <h1>{t("ACCOMODATION_LOC_TITLE")}</h1>
-                <Image src="/hotel.jpg" width="100%" height="9em" />
-                <p>{t("ACCOMODATION_LOC_DESCRIPTION")}</p>
-                <GoogleMapsLink url="https://goo.gl/maps/ZthM6nBdzNFefsbT7" />
-              </section>
+              <article>
+                <h1>{t("CEREMONY_LOC_TITLE")}</h1>
+                <Image
+                  src="/R6__8443_Fara_landscape_cut2.jpg"
+                  width="100%"
+                  height="9em"
+                />
+                <p>{t("CEREMONY_LOC_DESCRIPTION")}</p>
+                <GoogleMapsLink url="https://goo.gl/maps/HUeqLMmVau3j2xDH7" />
+              </article>
             </Card>
-          </Section>
-        </div>
-        {/* <Footer /> */}
-      </MobileView>
-    </div>
+          </Board>
+          <Board>
+            <Card>
+              <article>
+                <h1>{t("CELEBRATION_LOC_TITLE")}</h1>
+                <Image
+                  src="/Stary_kamionek_cut1.jpg"
+                  width="100%"
+                  height="9em"
+                />
+                <p>{t("CELEBRATION_LOC_DESCRIPTION")}</p>
+                <GoogleMapsLink url="https://goo.gl/maps/wBc6bgRYD93waBHe8" />
+              </article>
+            </Card>
+          </Board>
+          <div className="last">
+            <Board>
+              <Card>
+                <article>
+                  <h1>{t("ACCOMODATION_LOC_TITLE")}</h1>
+                  <Image src="/hotel.jpg" width="100%" height="9em" />
+                  <p>{t("ACCOMODATION_LOC_DESCRIPTION")}</p>
+                  <GoogleMapsLink url="https://goo.gl/maps/ZthM6nBdzNFefsbT7" />
+                </article>
+              </Card>
+            </Board>
+          </div>
+        </MobileView>
+      </div>
+    </section>
   );
 };
 

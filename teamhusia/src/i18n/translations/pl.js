@@ -24,6 +24,7 @@ export const pl = {
     MENU_ROADMAP: "MAPA WYDARZEŃ",
     MENU_TEAM: "TEAM",
     MENU_CONTACT: "KONTAKT",
+    MENU_RSVP: "RSVP",
     GOOGLE_MAPS_BTN: "POKAŻ NA MAPIE",
     Contact: "Kontakt"
   }
