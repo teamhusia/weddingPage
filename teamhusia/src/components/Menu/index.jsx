@@ -29,8 +29,9 @@ const Menu = ({}) => {
           <div className="menu-header">#TEAMHUSIA</div>
           <div className="navigation-list">
             <a
-              href="#section-rsvp"
-              onClick={e => handleScroll(e, "section-rsvp")}
+              href="https://forms.gle/t4Aki38R7dKnPxZo7"
+              target="_blank"
+              // onClick={e => handleScroll(e, "section-rsvp")}
             >
               {t("MENU_RSVP")}
             </a>

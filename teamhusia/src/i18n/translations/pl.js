@@ -26,6 +26,7 @@ export const pl = {
     MENU_CONTACT: "KONTAKT",
     MENU_RSVP: "RSVP",
     GOOGLE_MAPS_BTN: "POKAŻ NA MAPIE",
-    Contact: "Kontakt"
+    Contact: "Kontakt",
+    RSVP_BUTTON_LABEL: "RSVP"
   }
 };

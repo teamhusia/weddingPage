@@ -3,12 +3,12 @@
   position: sticky;
   width: 100vw;
   position: -webkit-sticky;
-  top: -3.5em;
   margin-bottom: 0.5em;
   display: flex;
   flex-direction: column;
   align-items: center;
   z-index: 100;
+  top: -3.5em;
 }
 
 .menu-content {
@@ -16,8 +16,7 @@
   box-sizing: border-box;
   flex-direction: column;
   align-items: stretch;
-  /* padding: 2em 1em; */
-  height: 50vh;
+  height: 26em;
   width: 100vw;
   color: #fff;
   background-color: #0a0c14;
@@ -44,7 +43,7 @@
 
 .menu-content.closed {
   /* margin-top: 0; */
-  margin-top: -50vh;
+  margin-top: -26em;
 }
 
 .menu-content.open {
@@ -57,10 +56,17 @@
   color: #fff;
   border: none;
   padding: 1.6em 2em 0.1em 2em;
-  margin-top: -1.5em;
   transition: padding 0.4s cubic-bezier(0.075, 0.82, 0.165, 1),
     letter-spacing 0.2s ease-out;
   font-size: 12px;
+}
+
+.browser .menu .toggle-btn {
+  margin-top: -1.5em;
+}
+
+.mobile .menu .toggle-btn {
+  margin-top: -1em;
 }
 
 .menu .toggle-btn:hover {
@@ -83,7 +89,6 @@
   justify-content: center;
   color: #fff;
   text-decoration: none;
-  transition: background-color 0.2s ease-out;
 }
 
 .navigation-list .divider {

@@ -6,3 +6,15 @@
   width: 100%;
   padding: 0;
 }
+
+.roadmap h1 {
+  margin: 1em;
+}
+
+.roadmap-content {
+  padding: 1em;
+}
+
+.roadmap-content a {
+  margin: 1em 0;
+}

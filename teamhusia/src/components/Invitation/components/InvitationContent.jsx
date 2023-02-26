@@ -1,6 +1,7 @@
 import { FARA_MAPS_URL, STARY_KAMIONEK_MAPS_URL } from "../../../const";
 
 import { Box } from "@mui/system";
+import { Button } from "@mui/material";
 import { KR_SIGNATURE } from "../../../i18n/translations/kr";
 import Link from "@mui/material/Link";
 import RoomIcon from "@mui/icons-material/Room";
@@ -89,6 +90,21 @@ const InvitationContent = () => {
           <p>{t("INVITATION_PLACE_2")}</p>
         </>
       )}
+      <Button
+        sx={{
+          fontSize: "1.5em",
+          padding: "0 2em 0 2em",
+          margin: "1em 0 0 0",
+          borderRadius: "1em",
+          textTransform: "none"
+        }}
+        size="large"
+        variant="contained"
+        target={"_blank"}
+        href={"https://forms.gle/mkYpdCfC5VRLVEFj8"}
+      >
+        {t("RSVP_BUTTON_LABEL")}
+      </Button>
     </StyledDiv>
   );
 };

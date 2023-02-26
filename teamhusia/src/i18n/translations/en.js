@@ -24,6 +24,7 @@ export const en = {
     MENU_TEAM: "TEAM",
     MENU_CONTACT: "CONTACT",
     MENU_RSVP: "RSVP",
-    GOOGLE_MAPS_BTN: "Open in Google Maps"
+    GOOGLE_MAPS_BTN: "Open in Google Maps",
+    RSVP_BUTTON_LABEL: "RSVP"
   }
 };

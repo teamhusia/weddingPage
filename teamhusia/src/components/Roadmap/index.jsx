@@ -24,8 +24,10 @@ const Roadmap = ({}) => {
                   width="100%"
                   height="14em"
                 />
-                <p>{t("CEREMONY_LOC_DESCRIPTION")}</p>
-                <GoogleMapsLink url="https://goo.gl/maps/HUeqLMmVau3j2xDH7" />
+                <div className="roadmap-content">
+                  <p>{t("CEREMONY_LOC_DESCRIPTION")}</p>
+                  <GoogleMapsLink url="https://goo.gl/maps/HUeqLMmVau3j2xDH7" />
+                </div>
               </article>
             </Card>
           </Board>
@@ -38,8 +40,10 @@ const Roadmap = ({}) => {
                   width="100%"
                   height="14em"
                 />
-                <p>{t("CELEBRATION_LOC_DESCRIPTION")}</p>
-                <GoogleMapsLink url="https://goo.gl/maps/wBc6bgRYD93waBHe8" />
+                <div className="roadmap-content">
+                  <p>{t("CELEBRATION_LOC_DESCRIPTION")}</p>
+                  <GoogleMapsLink url="https://goo.gl/maps/wBc6bgRYD93waBHe8" />
+                </div>
               </article>
             </Card>
           </Board>
@@ -49,8 +53,10 @@ const Roadmap = ({}) => {
                 <article>
                   <h1>{t("ACCOMODATION_LOC_TITLE")}</h1>
                   <Image src="/hotel.jpg" width="100%" height="14em" />
-                  <p>{t("ACCOMODATION_LOC_DESCRIPTION")}</p>
-                  <GoogleMapsLink url="https://goo.gl/maps/ZthM6nBdzNFefsbT7" />
+                  <div className="roadmap-content">
+                    <p>{t("ACCOMODATION_LOC_DESCRIPTION")}</p>
+                    <GoogleMapsLink url="https://goo.gl/maps/ZthM6nBdzNFefsbT7" />
+                  </div>
                 </article>
               </Card>
             </Board>
@@ -67,8 +73,10 @@ const Roadmap = ({}) => {
                   width="100%"
                   height="9em"
                 />
-                <p>{t("CEREMONY_LOC_DESCRIPTION")}</p>
-                <GoogleMapsLink url="https://goo.gl/maps/HUeqLMmVau3j2xDH7" />
+                <div className="roadmap-content">
+                  <p>{t("CEREMONY_LOC_DESCRIPTION")}</p>
+                  <GoogleMapsLink url="https://goo.gl/maps/HUeqLMmVau3j2xDH7" />
+                </div>
               </article>
             </Card>
           </Board>
@@ -81,8 +89,10 @@ const Roadmap = ({}) => {
                   width="100%"
                   height="9em"
                 />
-                <p>{t("CELEBRATION_LOC_DESCRIPTION")}</p>
-                <GoogleMapsLink url="https://goo.gl/maps/wBc6bgRYD93waBHe8" />
+                <div className="roadmap-content">
+                  <p>{t("CELEBRATION_LOC_DESCRIPTION")}</p>
+                  <GoogleMapsLink url="https://goo.gl/maps/wBc6bgRYD93waBHe8" />
+                </div>
               </article>
             </Card>
           </Board>
@@ -92,8 +102,10 @@ const Roadmap = ({}) => {
                 <article>
                   <h1>{t("ACCOMODATION_LOC_TITLE")}</h1>
                   <Image src="/hotel.jpg" width="100%" height="9em" />
-                  <p>{t("ACCOMODATION_LOC_DESCRIPTION")}</p>
-                  <GoogleMapsLink url="https://goo.gl/maps/ZthM6nBdzNFefsbT7" />
+                  <div className="roadmap-content">
+                    <p>{t("ACCOMODATION_LOC_DESCRIPTION")}</p>
+                    <GoogleMapsLink url="https://goo.gl/maps/ZthM6nBdzNFefsbT7" />
+                  </div>
                 </article>
               </Card>
             </Board>

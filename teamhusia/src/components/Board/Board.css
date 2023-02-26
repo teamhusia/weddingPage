@@ -19,11 +19,13 @@
 }
 
 .main-section.browser {
-  min-height: 26em;
+  /* min-height: 26em; */
+  /* max-height:  */
+  /* height: 80vh; */
   align-items: center;
 }
 
 .main-section.browser.first {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   justify-content: center;
 }

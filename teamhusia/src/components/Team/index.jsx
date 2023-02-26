@@ -3,8 +3,6 @@ import "./Team.css";
 import {
   BrowserView,
   MobileView,
-  isBrowser,
-  isMobile
 } from "react-device-detect";
 
 import Board from "../Board";

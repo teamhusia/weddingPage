@@ -1,6 +1,6 @@
 .card {
   text-align: center;
-  height: fit-content;
+  /* height: fit-content; */
   background-color: "#e3ded7";
   background: url("./../../../public/noise-texture.png") repeat;
   border-radius: 1em;
@@ -8,18 +8,22 @@
   box-sizing: border-box;
 }
 
-.card.browser {
-  width: fit-content;
+.browser .card {
   /* padding: 1em; */
-  max-width: 80vw;
+  /* max-width: 80vw; */
+  /* width: 60vw; */
+  /* min-width: 600px; */
+
+  width: 800px;
 }
 
-.card.browser p {
+.browser .card p {
   margin: 1em 3em;
 }
 
-.card.mobile {
+.mobile .card {
   width: 100%;
+  /* margin: 1em; */
 }
 
 .card-content {
@@ -45,18 +49,17 @@
   margin-bottom: 1em;
 }
 
-.roadmap .card.mobile {
+.mobile .roadmap .card {
   /* max-width: min(100%, 600px); */
 }
 
-.roadmap .card.browser {
-  min-width: 50vw;
-  max-width: 60vw;
+.browser .roadmap .card {
+  /* min-width: 50vw; */
+  /* max-width: 60vw; */
 }
 
-.roadmap .card.browser p {
+.browser .roadmap .card p {
   padding: 2em 0;
-  max-width: 800px;
 }
 
 .card.invitation {

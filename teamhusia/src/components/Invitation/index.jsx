@@ -7,7 +7,7 @@ const Invitation = () => {
     <section
       id="section-invitation"
       className="scroll-target min-fullscreen"
-      style={{ marginTop: "-5.5em" }}
+      // style={{ marginTop: "-5.5em" }}
     >
       <Board>
         <Card className="invitation">
