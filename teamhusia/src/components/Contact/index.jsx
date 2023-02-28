@@ -1,9 +1,6 @@
 import "./Contact.css";
 
-import {
-  BrowserView,
-  MobileView,
-} from "react-device-detect";
+import { BrowserView, MobileView } from "react-device-detect";
 
 import Board from "../Board";
 import Card from "../Card";
