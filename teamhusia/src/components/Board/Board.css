@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  margin: 3em 0 0 0;
   justify-content: flex-start;
 }
 
@@ -28,4 +27,8 @@
 .main-section.browser.first {
   /* min-height: 100vh; */
   justify-content: center;
+}
+
+.main-section:not(.first) {
+  margin: 3em 0;
 }
