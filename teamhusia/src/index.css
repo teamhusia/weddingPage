@@ -42,10 +42,16 @@ button {
 
 h2 {
   font-size: min(8vw, 1.5em);
+  font-weight: 600;
 }
 
 h3 {
-  font-size: min(4vw, 1.17em);
+  font-size: min(4vw, 1.1em);
+  /* color: rgba(0, 0, 0, 0.5);
+   */
+  margin-top: -1.1em;
+  margin-bottom: 1.5em;
+  opacity: 0.8;
 }
 
 .column-center {
@@ -97,4 +103,11 @@ h3 {
 .scroll-target {
   scroll-behavior: smooth;
   scroll-margin-top: 25em;
+}
+
+.row {
+  display: flex;
+  max-width: 100%;
+  gap: 1em;
+  justify-content: center;
 }

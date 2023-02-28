@@ -52,19 +52,6 @@
   margin-bottom: 1em;
 }
 
-.mobile .roadmap .card {
-  /* max-width: min(100%, 600px); */
-}
-
-.browser .roadmap .card {
-  /* min-width: 50vw; */
-  /* max-width: 60vw; */
-}
-
-.browser .roadmap .card p {
-  padding: 2em 0;
-}
-
 .card.invitation {
   margin-bottom: 5em;
 }
