@@ -15,9 +15,17 @@
 }
 
 .profile-picture {
-  width: 300px;
-  aspect-ratio: 1;
   border-radius: 50%;
+}
+
+.browser .profile-picture {
+  width: 300px;
+  height: 300px;
+}
+
+.mobile .profile-picture {
+  width: 60vw;
+  height: 60vw;
 }
 
 .profile h2 {
@@ -29,5 +37,5 @@
 }
 
 div.contact {
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
