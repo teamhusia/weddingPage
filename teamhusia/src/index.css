@@ -110,4 +110,17 @@ h3 {
   max-width: 100%;
   gap: 1em;
   justify-content: center;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+#section-invitation {
+  min-height: calc(100vh - 5.5em);
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }

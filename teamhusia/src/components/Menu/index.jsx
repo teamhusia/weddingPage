@@ -17,7 +17,6 @@ const Menu = ({}) => {
     const vh = window.innerHeight;
     const y = el.getBoundingClientRect().top + window.pageYOffset - vh * 0.6;
     if (el) {
-      console.log({ y });
       window.scrollTo({ top: y, behaviour: "smooth" });
     }
   };

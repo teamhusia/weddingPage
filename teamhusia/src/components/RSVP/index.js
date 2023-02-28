@@ -8,7 +8,7 @@ const RSVP = () => {
   return (
     <section
       id="section-rsvp"
-      className="scroll-target min-fullscreen"
+      className="scroll-target"
       style={{ marginTop: "-5.5em" }}
     >
       <Board>

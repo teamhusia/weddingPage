@@ -10,16 +10,16 @@ import { useTranslation } from "react-i18next";
 
 const Roadmap = ({}) => {
   const { t, i18n } = useTranslation();
-  console.log(i18n.language);
 
   return (
-    <section id="section-roadmap" className="min-fullscreen scroll-target">
+    <section id="section-roadmap" className="scroll-target">
       <div className="roadmap">
         <Board>
           <Card>
             <div>
               <h1>{t("ROADMAP")}</h1>
             </div>
+
             <BrowserView>
               <img
                 src="/map-wide-opt.png"
@@ -27,11 +27,15 @@ const Roadmap = ({}) => {
                 alt="A map showing the main landmarks of the event"
               />
 
+              <div className="divider"></div>
+
               <article>
-                <h2>{t("CEREMONY_LOC_TITLE")}</h2>
-                <h3 className="roadmap-subtitle">
-                  {t("CEREMONY_LOC_SUBTITLE")}
-                </h3>
+                <div className="roadmap-header">
+                  <h2>{t("CEREMONY_LOC_TITLE")}</h2>
+                  <h3 className="roadmap-subtitle">
+                    {t("CEREMONY_LOC_SUBTITLE")}
+                  </h3>
+                </div>
                 <Image
                   src="/R6__8443_Fara_landscape_cut2.jpg"
                   width="100%"
@@ -42,6 +46,8 @@ const Roadmap = ({}) => {
                   <GoogleMapsLink url="https://goo.gl/maps/HUeqLMmVau3j2xDH7" />
                 </div>
               </article>
+
+              <div className="divider"></div>
 
               <article>
                 <h2>{t("CELEBRATION_LOC_TITLE")}</h2>
@@ -59,21 +65,31 @@ const Roadmap = ({}) => {
                 </div>
               </article>
 
+              <div className="divider"></div>
+
               {i18n.language !== "pl" && (
-                <article>
-                  <h2>{t("KASIAS_HOUSE_TITLE")}</h2>
-                  <h3 className="roadmap-subtitle">
-                    {t("KASIAS_HOUSE_SUBTITLE")}
-                  </h3>
-                  <Image src="/morszynska-cut.jpg" width="100%" height="14em" />
-                  <div className="roadmap-content">
-                    <p>{t("KASIAS_HOUSE_DESCRIPTION")}</p>
-                    <GoogleMapsLink url="https://goo.gl/maps/zprAcdU9XbKxdsWdA" />
-                  </div>
-                </article>
+                <>
+                  <article>
+                    <h2>{t("KASIAS_HOUSE_TITLE")}</h2>
+                    <h3 className="roadmap-subtitle">
+                      {t("KASIAS_HOUSE_SUBTITLE")}
+                    </h3>
+                    <Image
+                      src="/morszynska-cut.jpg"
+                      width="100%"
+                      height="14em"
+                    />
+                    <div className="roadmap-content">
+                      <p>{t("KASIAS_HOUSE_DESCRIPTION")}</p>
+                      <GoogleMapsLink url="https://goo.gl/maps/zprAcdU9XbKxdsWdA" />
+                    </div>
+                  </article>
+
+                  <div className="divider"></div>
+                </>
               )}
 
-              <article>
+              <article className={i18n.language === "pl" ? "last" : ""}>
                 <h2>{t("ACCOMODATION_LOC_TITLE")}</h2>
                 <h3 className="roadmap-subtitle">
                   {t("ACCOMODATION_LOC_SUBTITLE")}
@@ -85,31 +101,37 @@ const Roadmap = ({}) => {
                 </div>
               </article>
 
+              <div className="divider"></div>
+
               {i18n.language !== "pl" && (
-                <article>
-                  <h2>{t("AIRPORT_LOC_TITLE")}</h2>
-                  <div className="roadmap-content">
-                    <p>
-                      {t("AIRPORT_LOC_DESCRIPTION")} <br />
-                      {t("AIRPORT_FLIGHTS_TEXT")}
-                    </p>
-                    <div className="row">
-                      <img
-                        src="flights-1.jpg"
-                        width="300px"
-                        style={{ borderRadius: "1em" }}
-                        alt="calendar showing possible flights from the UK"
-                      />
-                      <img
-                        src="flights-2.png"
-                        width="300px"
-                        style={{ borderRadius: "1em" }}
-                        alt="calendar showing possible flights from the UK"
-                      />
+                <>
+                  <article className="last">
+                    <h2>{t("AIRPORT_LOC_TITLE")}</h2>
+                    <div className="roadmap-content">
+                      <p>
+                        {t("AIRPORT_LOC_DESCRIPTION")} <br />
+                        {t("AIRPORT_FLIGHTS_TEXT")}
+                      </p>
+                      <div className="row">
+                        <img
+                          src="flights-1.jpg"
+                          width="300px"
+                          style={{ borderRadius: "1em" }}
+                          alt="calendar showing possible flights from the UK"
+                        />
+                        <img
+                          src="flights-2.png"
+                          width="300px"
+                          style={{ borderRadius: "1em" }}
+                          alt="calendar showing possible flights from the UK"
+                        />
+                      </div>
+                      <GoogleMapsLink url="https://goo.gl/maps/ZthM6nBdzNFefsbT7" />
                     </div>
-                    <GoogleMapsLink url="https://goo.gl/maps/ZthM6nBdzNFefsbT7" />
-                  </div>
-                </article>
+                  </article>
+
+                  <div className="divider"></div>
+                </>
               )}
             </BrowserView>
 
@@ -130,6 +152,8 @@ const Roadmap = ({}) => {
                   <GoogleMapsLink url="https://goo.gl/maps/HUeqLMmVau3j2xDH7" />
                 </div>
               </article>
+
+              <div className="divider"></div>
               <article>
                 <h2>{t("CELEBRATION_LOC_TITLE")}</h2>
                 <h3 className="roadmap-subtitle">
@@ -145,6 +169,8 @@ const Roadmap = ({}) => {
                   <GoogleMapsLink url="https://goo.gl/maps/wBc6bgRYD93waBHe8" />
                 </div>
               </article>
+
+              <div className="divider"></div>
               <article>
                 <h2>{t("ACCOMODATION_LOC_TITLE")}</h2>
                 <h3 className="roadmap-subtitle">
@@ -157,18 +183,28 @@ const Roadmap = ({}) => {
                 </div>
               </article>
 
+              <div className="divider"></div>
+
               {i18n.language !== "pl" && (
-                <article>
-                  <h2>{t("KASIAS_HOUSE_TITLE")}</h2>
-                  <h3 className="roadmap-subtitle">
-                    {t("KASIAS_HOUSE_SUBTITLE")}
-                  </h3>
-                  <Image src="/morszynska-cut.jpg" width="100%" height="14em" />
-                  <div className="roadmap-content">
-                    <p>{t("KASIAS_HOUSE_DESCRIPTION")}</p>
-                    <GoogleMapsLink url="https://goo.gl/maps/zprAcdU9XbKxdsWdA" />
-                  </div>
-                </article>
+                <>
+                  <article>
+                    <h2>{t("KASIAS_HOUSE_TITLE")}</h2>
+                    <h3 className="roadmap-subtitle">
+                      {t("KASIAS_HOUSE_SUBTITLE")}
+                    </h3>
+                    <Image
+                      src="/morszynska-cut.jpg"
+                      width="100%"
+                      height="14em"
+                    />
+                    <div className="roadmap-content">
+                      <p>{t("KASIAS_HOUSE_DESCRIPTION")}</p>
+                      <GoogleMapsLink url="https://goo.gl/maps/zprAcdU9XbKxdsWdA" />
+                    </div>
+                  </article>
+
+                  <div className="divider"></div>
+                </>
               )}
 
               <article>
@@ -183,31 +219,37 @@ const Roadmap = ({}) => {
                 </div>
               </article>
 
+              <div className="divider"></div>
+
               {i18n.language !== "pl" && (
-                <article>
-                  <h2>{t("AIRPORT_LOC_TITLE")}</h2>
-                  <div className="roadmap-content">
-                    <p>
-                      {t("AIRPORT_LOC_DESCRIPTION")} <br />
-                      {t("AIRPORT_FLIGHTS_TEXT")}
-                    </p>
-                    <div>
-                      <img
-                        src="flights-1.jpg"
-                        width="300px"
-                        style={{ borderRadius: "1em" }}
-                        alt="calendar showing possible flights from the UK"
-                      />
-                      <img
-                        src="flights-2.png"
-                        width="300px"
-                        style={{ borderRadius: "1em" }}
-                        alt="calendar showing possible flights from the UK"
-                      />
+                <>
+                  <article>
+                    <h2>{t("AIRPORT_LOC_TITLE")}</h2>
+                    <div className="roadmap-content">
+                      <p>
+                        {t("AIRPORT_LOC_DESCRIPTION")} <br />
+                        {t("AIRPORT_FLIGHTS_TEXT")}
+                      </p>
+                      <div>
+                        <img
+                          src="flights-1.jpg"
+                          width="300px"
+                          style={{ borderRadius: "1em" }}
+                          alt="calendar showing possible flights from the UK"
+                        />
+                        <img
+                          src="flights-2.png"
+                          width="300px"
+                          style={{ borderRadius: "1em" }}
+                          alt="calendar showing possible flights from the UK"
+                        />
+                      </div>
+                      <GoogleMapsLink url="https://goo.gl/maps/ZthM6nBdzNFefsbT7" />
                     </div>
-                    <GoogleMapsLink url="https://goo.gl/maps/ZthM6nBdzNFefsbT7" />
-                  </div>
-                </article>
+                  </article>
+
+                  <div className="divider"></div>
+                </>
               )}
             </MobileView>
           </Card>

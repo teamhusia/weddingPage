@@ -4,7 +4,7 @@ import { BrowserView, MobileView } from "react-device-detect";
 
 const Card = ({ children, className }) => {
   return (
-    <div className={className}>
+    <div className={`${className} col center`}>
       <BrowserView>
         <div className="card">
           <div className="card-content">{children}</div>

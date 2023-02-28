@@ -4,11 +4,7 @@ import InvitationContent from "./components/InvitationContent";
 
 const Invitation = () => {
   return (
-    <section
-      id="section-invitation"
-      className="scroll-target min-fullscreen"
-      // style={{ marginTop: "-5.5em" }}
-    >
+    <section id="section-invitation" className="scroll-target">
       <Board>
         <Card className="invitation">
           <InvitationContent />

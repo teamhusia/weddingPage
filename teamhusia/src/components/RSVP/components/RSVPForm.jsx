@@ -1,19 +1,7 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef } from "react";
 
 const RSVPForm = () => {
   const iframeRef = useRef();
-  const [height, setHeight] = useState("0px");
-  useEffect(() => {
-    console.log({ height });
-  }, [height]);
-
-  //   useEffect(() => {
-  //     console.log("iframe", iframeRef.current.contentWindow.document.body);
-  //     if (iframeRef) {
-  //       iframeRef.current.style.height =
-  //         iframeRef.current.contentWindow.document.body.scrollHeight + "px";
-  //     }
-  //   }, [iframeRef]);
 
   return (
     <div className="rsvp-form">
@@ -23,13 +11,6 @@ const RSVPForm = () => {
         title="rsvp-google-form"
         frameBorder="0"
         className="rsvp-iframe"
-        onLoad={() => {
-          const newH =
-            iframeRef.current.contentWindow.document.body.scrollHeight + "px";
-          console.log("log", { newH });
-
-          setHeight(newH);
-        }}
       >
         Ładuję…
       </iframe>

@@ -10,10 +10,7 @@ const Contact = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <section
-      id="section-contact"
-      className="contact min-fullscreen scroll-target"
-    >
+    <section id="section-contact" className="contact scroll-target">
       <BrowserView>
         <Board>
           <Card className="card-contact">
