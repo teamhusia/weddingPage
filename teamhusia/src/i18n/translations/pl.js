@@ -13,13 +13,13 @@ export const pl = {
     INVITATION_RSVP_BUTTON: "RSVP",
     CEREMONY_LOC_TITLE: "Ceremonia",
     CEREMONY_LOC_DESCRIPTION:
-      "Nasza ceremonia Kościelna odbędzie sie w Farze Poznańskiej, leżącej w samym sercu Starego Miasta Poznania.",
+      "Nasza ceremonia Kościelna odbędzie sie w Farze Poznańskiej, leżącej w samym sercu Starego Miasta Poznania. Po cermoni autokar zawiezie naszych gości na miejsce przyjęcia.",
     CELEBRATION_LOC_TITLE: "Przyjęcie weselne",
     CELEBRATION_LOC_DESCRIPTION:
       "Po Mszy Świętej zapraszamy naszych Gości na przyjęcie Weselne w Starym Kamionku.",
     ACCOMODATION_LOC_TITLE: "Nocleg",
     ACCOMODATION_LOC_DESCRIPTION:
-      "Dla Gości poszukujących miejsca noclegowego, serdecznie polecamy Hotel Ilon.",
+      "Jeśli szukasz hotelu w Poznaniu, polecamy Hotel Ilonn na podolanach. Są też dostępne pokoje hotelowe w Starym Kamionku na noc przyjęcia. Pokój dwuosobowy to koszt ok. 220zł, dodatkowo śniadanie 40zł/os. Zainteresowanych prosimy o kontakt.",
     MENU_HOME: "ZAPROSZENIE",
     MENU_ROADMAP: "MAPA WYDARZEŃ",
     MENU_TEAM: "TEAM",
