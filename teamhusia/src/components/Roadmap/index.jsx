@@ -18,7 +18,6 @@ const Roadmap = ({}) => {
               <h1>{t("ROADMAP")}</h1>
             </div>
 
-            {/* <BrowserView> */}
             <img
               src={`${isBrowser ? "/map-wide-opt.png" : "/map-narrow-opt.png"}`}
               width="100%"
@@ -103,7 +102,6 @@ const Roadmap = ({}) => {
                       {t("AIRPORT_LOC_DESCRIPTION")} <br />
                       {t("AIRPORT_FLIGHTS_TEXT")}
                     </p>
-                    "
                     <div className={`${isBrowser ? "row" : "col"}`}>
                       <img
                         src="flights-1.jpg"
@@ -114,7 +112,7 @@ const Roadmap = ({}) => {
                       <img
                         src="flights-2.png"
                         width="300px"
-                        style={{ borderRadius: "1em" }}
+                        style={{ borderRadius: "1em"}}
                         alt="calendar showing possible flights from the UK"
                       />
                     </div>

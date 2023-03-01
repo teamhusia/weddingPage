@@ -47,7 +47,16 @@ export const kr = {
     MENU_CONTACT: "CONTACT",
     MENU_RSVP: "RSVP",
     GOOGLE_MAPS_BTN: "Open in Google Maps",
-    RSVP_BUTTON_LABEL: "RSVP"
+    RSVP_BUTTON_LABEL: "RSVP",
+
+    SCHEDULE: "DAY PLAN",
+    SCHEDULE_DAY_PLAN: "Day plan",
+    SCHEDULE_CEREMONY: "Ceremony @Fara Poznań Church",
+    SCHEDULE_BUS: "Hire bus to the party venue",
+    SCHEDULE_WELCOMING: "Welcome us @Stary Kamionek",
+    SCHEDULE_PARTY: "Let's Party all night",
+    SCHEDULE_RETURN_BUS: "Hire bus to ILONN Hotel and Ławica Airport",
+    SCHEDULE_PARTY_2: "Day 2 party @Kasia's family home"
   }
 };
 
