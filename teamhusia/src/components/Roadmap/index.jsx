@@ -10,7 +10,6 @@ import { useTranslation } from "react-i18next";
 
 const Roadmap = ({}) => {
   const { t, i18n } = useTranslation();
-  console.log(i18n.language);
   return (
     <section id="section-roadmap" className="scroll-target">
       <div className="roadmap">
@@ -67,29 +66,23 @@ const Roadmap = ({}) => {
 
             <div className="divider"></div>
 
-            {i18n.language !== "pl" &&
-              i18n.language !== "pl-PL" &&
-              console.log("lang is pl: ", i18n.language) && (
-                <>
-                  <article>
-                    <h2>{t("KASIAS_HOUSE_TITLE")}</h2>
-                    <h3 className="roadmap-subtitle">
-                      {t("KASIAS_HOUSE_SUBTITLE")}
-                    </h3>
-                    <Image
-                      src="/morszynska-cut.jpg"
-                      width="100%"
-                      height="14em"
-                    />
-                    <div className="roadmap-content">
-                      <p>{t("KASIAS_HOUSE_DESCRIPTION")}</p>
-                      <GoogleMapsLink url="https://goo.gl/maps/zprAcdU9XbKxdsWdA" />
-                    </div>
-                  </article>
+            {i18n.language !== "pl" && i18n.language !== "pl-PL" && (
+              <>
+                <article>
+                  <h2>{t("KASIAS_HOUSE_TITLE")}</h2>
+                  <h3 className="roadmap-subtitle">
+                    {t("KASIAS_HOUSE_SUBTITLE")}
+                  </h3>
+                  <Image src="/morszynska-cut.jpg" width="100%" height="14em" />
+                  <div className="roadmap-content">
+                    <p>{t("KASIAS_HOUSE_DESCRIPTION")}</p>
+                    <GoogleMapsLink url="https://goo.gl/maps/zprAcdU9XbKxdsWdA" />
+                  </div>
+                </article>
 
-                  <div className="divider"></div>
-                </>
-              )}
+                <div className="divider"></div>
+              </>
+            )}
 
             <article
               className={
