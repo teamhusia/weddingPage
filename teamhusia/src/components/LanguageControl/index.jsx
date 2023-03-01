@@ -22,7 +22,9 @@ const LanguageControl = () => {
       </button>
       <button
         className={`icon-button ${
-          i18n.language === "pl" ? "active" : "inactive"
+          i18n.language === "pl" || i18n.language === "pl-PL"
+            ? "active"
+            : "inactive"
         }`}
         onClick={() => {
           i18n.changeLanguage("pl");
