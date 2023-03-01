@@ -40,11 +40,6 @@ button {
   font-family: Montserrat;
 }
 
-h2 {
-  font-size: min(8vw, 1.5em);
-  font-weight: 600;
-}
-
 h3 {
   font-size: min(4vw, 1.1em);
   /* color: rgba(0, 0, 0, 0.5);
