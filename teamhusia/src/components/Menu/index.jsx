@@ -47,6 +47,12 @@ const Menu = ({}) => {
             >
               {t("MENU_ROADMAP")}
             </a>
+            <a
+              href="#section-schedule"
+              onClick={e => handleScroll(e, "section-schedule")}
+            >
+              {t("SCHEDULE")}
+            </a>
 
             <a
               href="#section-contact"
