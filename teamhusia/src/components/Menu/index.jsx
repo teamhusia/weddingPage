@@ -57,7 +57,7 @@ const Menu = ({}) => {
           </div>
         </div>
         <div className="lang-ctrl-container">
-          <LanguageControl />
+          <LanguageControl onClose={() => setOpen(false)} />
         </div>
         <button
           className="toggle-btn"

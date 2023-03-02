@@ -5,7 +5,7 @@ import IconKR from "./components/IconKR";
 import IconPL from "./components/IconPL";
 import { useTranslation } from "react-i18next";
 
-const LanguageControl = () => {
+const LanguageControl = ({ onClose }) => {
   const { t, i18n } = useTranslation();
 
   return (
@@ -16,6 +16,7 @@ const LanguageControl = () => {
         }`}
         onClick={() => {
           i18n.changeLanguage("kr");
+          onClose();
         }}
       >
         <IconKR />
@@ -28,6 +29,7 @@ const LanguageControl = () => {
         }`}
         onClick={() => {
           i18n.changeLanguage("pl");
+          onClose();
         }}
       >
         <IconPL />
@@ -38,6 +40,7 @@ const LanguageControl = () => {
         }`}
         onClick={() => {
           i18n.changeLanguage("en");
+          onClose();
         }}
       >
         <IconGB />
