@@ -30,7 +30,9 @@
   align-items: center;
   letter-spacing: 0.2em;
   justify-content: center;
-  color: rgb(121, 142, 171);
+  color: rgb(153, 145, 99);
+  /* color: rgb(141, 125, 31); */
+  /* color: rgb(121, 142, 171); */
 }
 
 .menu-content .lang-ctrl-container {

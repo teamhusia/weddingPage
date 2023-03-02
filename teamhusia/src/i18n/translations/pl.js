@@ -35,6 +35,15 @@ export const pl = {
     GOOGLE_MAPS_BTN: "POKAŻ NA MAPIE",
     Contact: "Kontakt",
     RSVP_BUTTON_LABEL: "RSVP",
-    ROADMAP: "Mapa wydarzenia"
+    ROADMAP: "Mapa wydarzenia",
+
+    SCHEDULE: "PLAN DNIA",
+    SCHEDULE_DAY_PLAN: "Plan dnia",
+    SCHEDULE_CEREMONY: "Msza Święta w Farze Poznańskiej",
+    SCHEDULE_BUS: "Autokar do Starego Kamionka",
+    SCHEDULE_WELCOMING: "",
+    SCHEDULE_PARTY: "Przyjęcie w Starym Kamionku",
+    SCHEDULE_RETURN_BUS: "Autokar do Poznania",
+    SCHEDULE_PARTY_2: ""
   }
 };

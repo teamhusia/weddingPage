@@ -4,6 +4,9 @@ import Invitation from "../Invitation";
 import Menu from "../Menu";
 import ProgressiveBackground from "../ProgressiveBackground";
 import Roadmap from "../Roadmap";
+import Schedule from "../Schedule";
+
+// import CountDown from "../CountDown";
 
 const FrontPage = () => {
   return (
@@ -14,7 +17,9 @@ const FrontPage = () => {
       >
         <Menu />
         <Invitation />
+        {/* <CountDown /> */}
         <Roadmap />
+        <Schedule />
         <Contact />
         <Footer />
       </ProgressiveBackground>
