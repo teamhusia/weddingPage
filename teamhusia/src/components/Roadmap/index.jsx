@@ -4,6 +4,7 @@ import Board from "../Board";
 import Card from "../Card";
 import GoogleMapsLink from "../GoogleMapsLink";
 import Image from "./components/Image";
+import SeparatorText from "../SeparatorText";
 import { isBrowser } from "react-device-detect";
 import { useTranslation } from "react-i18next";
 
@@ -27,7 +28,9 @@ const Roadmap = ({}) => {
 
             <article>
               <div className="roadmap-header">
-                <h2>{t("CEREMONY_LOC_TITLE")}</h2>
+                <SeparatorText width="4em">
+                  <h2>{t("CEREMONY_LOC_TITLE")}</h2>
+                </SeparatorText>
                 <h3 className="roadmap-subtitle">
                   {t("CEREMONY_LOC_SUBTITLE")}
                 </h3>
@@ -44,7 +47,9 @@ const Roadmap = ({}) => {
             </article>
 
             <article>
-              <h2>{t("CELEBRATION_LOC_TITLE")}</h2>
+              <SeparatorText width="4em">
+                <h2>{t("CELEBRATION_LOC_TITLE")}</h2>
+              </SeparatorText>
               <h3 className="roadmap-subtitle">
                 {t("CELEBRATION_LOC_SUBTITLE")}
               </h3>
@@ -62,7 +67,9 @@ const Roadmap = ({}) => {
             {i18n.language !== "pl" && i18n.language !== "pl-PL" && (
               <>
                 <article>
-                  <h2>{t("KASIAS_HOUSE_TITLE")}</h2>
+                  <SeparatorText width="4em">
+                    <h2>{t("KASIAS_HOUSE_TITLE")}</h2>
+                  </SeparatorText>
                   <h3 className="roadmap-subtitle">
                     {t("KASIAS_HOUSE_SUBTITLE")}
                   </h3>
@@ -82,7 +89,10 @@ const Roadmap = ({}) => {
                   : ""
               }
             >
-              <h2>{t("ACCOMODATION_LOC_TITLE")}</h2>
+              <SeparatorText width="4em">
+                <h2>{t("ACCOMODATION_LOC_TITLE")}</h2>
+              </SeparatorText>
+
               <h3 className="roadmap-subtitle">
                 {t("ACCOMODATION_LOC_SUBTITLE")}
               </h3>
@@ -96,7 +106,10 @@ const Roadmap = ({}) => {
             {i18n.language !== "pl" && i18n.language !== "pl-PL" && (
               <>
                 <article className="last">
-                  <h2>{t("AIRPORT_LOC_TITLE")}</h2>
+                  <SeparatorText width="4em">
+                    <h2>{t("AIRPORT_LOC_TITLE")}</h2>
+                  </SeparatorText>
+
                   <div className="roadmap-content">
                     <p>
                       {t("AIRPORT_LOC_DESCRIPTION")} <br />
@@ -112,7 +125,7 @@ const Roadmap = ({}) => {
                       <img
                         src="flights-2.png"
                         width="300px"
-                        style={{ borderRadius: "1em"}}
+                        style={{ borderRadius: "1em" }}
                         alt="calendar showing possible flights from the UK"
                       />
                     </div>

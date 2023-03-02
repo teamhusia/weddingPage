@@ -1,0 +1,15 @@
+.separator-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.separator-left,
+.separator-right {
+  display: inline-block;
+  width: 5em;
+  height: 1px;
+  margin: 0 1em;
+  background-color: "#01040c";
+}

@@ -51,6 +51,8 @@ export const en = {
     SCHEDULE_WELCOMING: "Welcome us @Stary Kamionek",
     SCHEDULE_PARTY: "Let's Party all night",
     SCHEDULE_RETURN_BUS: "Hire bus to ILONN Hotel and Ławica Airport",
-    SCHEDULE_PARTY_2: "Day 2 party @Kasia's family home"
+    SCHEDULE_PARTY_2: "Day 2 party @Kasia's family home",
+
+    COUNTDOWN_TITLE: "Almost there!"
   }
 };

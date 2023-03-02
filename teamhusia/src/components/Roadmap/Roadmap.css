@@ -14,3 +14,14 @@
 .roadmap h2 {
   margin-top: 1em;
 }
+
+.roadmap article {
+  margin-top: 5em;
+}
+
+.roadmap-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}

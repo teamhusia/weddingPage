@@ -2,6 +2,7 @@ import "./Schedule.css";
 
 import Board from "../Board";
 import Card from "../Card";
+import SeparatorText from "../SeparatorText";
 import { useTranslation } from "react-i18next";
 
 const Schedule = () => {
@@ -12,7 +13,10 @@ const Schedule = () => {
       <Board>
         <Card className="glass">
           <h1>{t("SCHEDULE_DAY_PLAN")}</h1>
-          <h2>13/09/23</h2>
+
+          <SeparatorText color="#fff" width="5em">
+            <h2 style={{ fontSize: "2em" }}>13/09/23</h2>
+          </SeparatorText>
 
           <div className="schedule-ceremony ">
             <h2>15:00</h2>
@@ -45,7 +49,10 @@ const Schedule = () => {
                 <h3>{t("SCHEDULE_PARTY")}</h3>
               </div>
 
-              <h2>14/09/23</h2>
+              <SeparatorText color="#fff" width="5em">
+                <h2 style={{ fontSize: "2em" }}>14/09/23</h2>
+              </SeparatorText>
+
               <div className="schedule-return-bus">
                 <h2>04:00</h2>
                 <h3>{t("SCHEDULE_RETURN_BUS")}</h3>
