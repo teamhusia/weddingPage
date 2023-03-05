@@ -16,18 +16,21 @@ const Contact = () => {
           <Card className="card-contact">
             <h1>{t("Contact")}</h1>
 
+            <img src="/both.jpg" className="roadmap-banner" />
+
             <div className="profile-list">
               <div className="profile">
-                <img src="/HJ-pic.jpg" className="profile-picture" />
-                <h2>Heungjae Choi</h2>
-                <p>ENG 07492089086</p>
+                <h2>Katarzyna Koprowska</h2>
+                <p>
+                  ENG 07713415458
+                  <br />
+                  PL 667 674 077
+                </p>
               </div>
 
               <div className="profile">
-                <img src="/KS2-pic.jpg" className="profile-picture" />
-                <h2>Katarzyna Koprowska</h2>
-                <p>ENG 07713415458</p>
-                <p>PL 667 674 077</p>
+                <h2>Heungjae Choi</h2>
+                <p>ENG 07492089086</p>
               </div>
             </div>
           </Card>
@@ -39,17 +42,20 @@ const Contact = () => {
           <Card className="contact">
             <h1>{t("MENU_CONTACT")}</h1>
 
+            <img src="/both.jpg" className="roadmap-banner" />
+
             <div className="profile">
-              <img src="/HJ-pic.jpg" className="profile-picture" />
-              <h2>Heungjae Choi</h2>
-              <p>ENG 07492089086</p>
+              <h2>Katarzyna Koprowska</h2>
+              <p>
+                ENG 07713415458
+                <br />
+                PL 667 674 077
+              </p>
             </div>
 
             <div className="profile">
-              <img src="/KS2-pic.jpg" className="profile-picture" />
-              <h2>Katarzyna Koprowska</h2>
-              <p>ENG 07713415458</p>
-              <p>PL 667 674 077</p>
+              <h2>Heungjae Choi</h2>
+              <p>ENG 07492089086</p>
             </div>
           </Card>
         </Board>
