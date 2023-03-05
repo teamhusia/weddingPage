@@ -15,7 +15,7 @@ const Schedule = () => {
           <h1>{t("SCHEDULE_DAY_PLAN")}</h1>
 
           <SeparatorText color="#fff" width="5em">
-            <h2 style={{ fontSize: "2em" }}>13/09/23</h2>
+            <h2 style={{ fontSize: "2em" }}>13/08/23</h2>
           </SeparatorText>
 
           <div className="schedule-ceremony ">
@@ -50,7 +50,7 @@ const Schedule = () => {
               </div>
 
               <SeparatorText color="#fff" width="5em">
-                <h2 style={{ fontSize: "2em" }}>14/09/23</h2>
+                <h2 style={{ fontSize: "2em" }}>14/08/23</h2>
               </SeparatorText>
 
               <div className="schedule-return-bus">
