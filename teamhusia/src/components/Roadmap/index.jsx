@@ -73,7 +73,8 @@ const Roadmap = ({}) => {
                   <h3 className="roadmap-subtitle">
                     {t("KASIAS_HOUSE_SUBTITLE")}
                   </h3>
-                  <Image src="/morszynska-cut.jpg" width="100%" height="14em" />
+                  <Image src="/house.jpg" width="100%" height="14em" />
+                  {/* <Image src="/morszynska-cut.jpg" width="100%" height="14em" /> */}
                   <div className="roadmap-content">
                     <p>{t("KASIAS_HOUSE_DESCRIPTION")}</p>
                     <GoogleMapsLink url="https://goo.gl/maps/zprAcdU9XbKxdsWdA" />
