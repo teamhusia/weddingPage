@@ -15,7 +15,7 @@ export const pl = {
     CEREMONY_LOC_TITLE: "Ceremonia",
     CEREMONY_LOC_SUBTITLE: "",
     CEREMONY_LOC_DESCRIPTION:
-      "Msza Święta odbędzie się w Farze Poznańskiej, leżącej przy Starym Rynku. Ze względu na trwające tam renowacje, radzimy założyć wygodne obuwie. Po ceremonii autokar zawiezie naszych gości na miejsce przyjęcia.",
+      "Msza Święta odbędzie się w Farze Poznańskiej, leżącej przy Starym Rynku. Ze względu na trwające tam renowacje, radzimy zrezygnować z wysokich obcasów. Po ceremonii autokar zawiezie naszych gości na miejsce przyjęcia.",
 
     CELEBRATION_LOC_TITLE: "Przyjęcie weselne",
     CELEBRATION_LOC_SUBTITLE: "",
