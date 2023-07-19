@@ -15,7 +15,7 @@ export const pl = {
     CEREMONY_LOC_TITLE: "Ceremonia",
     CEREMONY_LOC_SUBTITLE: "",
     CEREMONY_LOC_DESCRIPTION:
-      "Nasza ceremonia Kościelna odbędzie sie w Farze Poznańskiej, leżącej w samym sercu Starego Miasta Poznania. Po cermoni autokar zawiezie naszych gości na miejsce przyjęcia.",
+      "Msza Święta odbędzie się w Farze Poznańskiej, leżącej przy Starym Rynku. Ze względu na trwające tam renowacje, radzimy założyć wygodne obuwie. Po ceremonii autokar zawiezie naszych gości na miejsce przyjęcia.",
 
     CELEBRATION_LOC_TITLE: "Przyjęcie weselne",
     CELEBRATION_LOC_SUBTITLE: "",
@@ -25,7 +25,7 @@ export const pl = {
     ACCOMODATION_LOC_TITLE: "Nocleg",
     ACCOMODATION_LOC_SUBTITLE: "",
     ACCOMODATION_LOC_DESCRIPTION:
-      "Jeśli szukasz hotelu w Poznaniu, polecamy Hotel Ilonn na podolanach. Są też dostępne pokoje hotelowe w Starym Kamionku na noc przyjęcia. Pokój dwuosobowy to koszt ok. 220zł, dodatkowo śniadanie 40zł/os. Zainteresowanych prosimy o kontakt.",
+      "Jeśli szukasz hotelu w Poznaniu, polecamy Hotel Ilonn na Podolanach. Są też dostępne hotele w Starym Kamionku na noc przyjęcia. Pokój dwuosobowy ze śniadaniem to kosz ok. 300zł. Zainteresowanych prosimy o kontakt.",
 
     MENU_HOME: "ZAPROSZENIE",
     MENU_ROADMAP: "MAPA WYDARZENIA",
