@@ -1,6 +1,7 @@
 import Contact from "../Contact";
 import Footer from "../Footer";
 import Invitation from "../Invitation";
+import Livestream from "../Livestream";
 import Menu from "../Menu";
 import ProgressiveBackground from "../ProgressiveBackground";
 import Roadmap from "../Roadmap";
@@ -16,6 +17,7 @@ const FrontPage = () => {
         miniatureSrc="/stars-edited-small.jpg"
       >
         <Menu />
+        <Livestream />
         <Invitation />
         {/* <CountDown /> */}
         <Roadmap />

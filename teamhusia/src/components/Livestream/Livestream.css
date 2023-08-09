@@ -1,0 +1,18 @@
+.iframe-container {
+  min-width: 100%;
+  /* min-height: 400px; */
+  aspect-ratio: 16 / 9;
+
+  border-radius: 1em; 
+  position:relative;
+  overflow: hidden;
+}
+
+#section-livestream {
+  /* background-color: pink; */
+  min-height: calc(100vh - 5.5em);
+}
+
+.livestream {
+  color: #ffd951d2;
+}

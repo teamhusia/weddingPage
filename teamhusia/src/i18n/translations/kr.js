@@ -1,5 +1,7 @@
 export const kr = {
   translations: {
+    LIVESTREAM_TITLE: "Watch our wedding ceremony live",    
+    
     INVITATION_HEADER: "",
     INVITATION_NAMES: "",
     INVITATION_NAMES_2: "",
@@ -41,6 +43,7 @@ export const kr = {
       "Ryanair flights from Bristol Airport to Poznań Airport operate on Mondays, Thursdays and Sundays. We recommend you stay for longer, have a look around the beautiful city of Poznań and take part in our Day 2 party.",
     AIRPORT_FLIGHTS_TEXT: "Some of your flight options include:",
 
+    MENU_LIVESTREAM: "LIVESTREAM",
     MENU_HOME: "HOME",
     MENU_ROADMAP: "ROADMAP",
     MENU_TEAM: "TEAM",

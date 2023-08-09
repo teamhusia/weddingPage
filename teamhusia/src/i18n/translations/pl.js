@@ -1,5 +1,7 @@
 export const pl = {
   translations: {
+    LIVESTREAM_TITLE: "Transmisja z Mszy Świętej \nna żywo", 
+    
     INVITATION_HEADER: "",
     INVITATION_NAMES: "Katarzyna Koprowska \n&\nHeungjae Choi",
     INVITATION_NAMES_2: "wraz z Rodzicami",
@@ -27,6 +29,7 @@ export const pl = {
     ACCOMODATION_LOC_DESCRIPTION:
       "Jeśli szukasz hotelu w Poznaniu, polecamy Hotel Ilonn na Podolanach. Są też dostępne hotele w Starym Kamionku na noc przyjęcia. Pokój dwuosobowy ze śniadaniem to kosz ok. 300zł. Zainteresowanych prosimy o kontakt.",
 
+    MENU_LIVESTREAM: "TRANSMISJA NA ŻYWO",
     MENU_HOME: "ZAPROSZENIE",
     MENU_ROADMAP: "MAPA WYDARZENIA",
     MENU_TEAM: "TEAM",

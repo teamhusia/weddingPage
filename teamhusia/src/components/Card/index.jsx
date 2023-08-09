@@ -2,19 +2,26 @@ import "./Card.css";
 
 import { BrowserView, MobileView } from "react-device-detect";
 
-const Card = ({ children, className }) => {
+import SeparatorText from "../SeparatorText";
+
+const Card = ({ children, className, title }) => {
   return (
     <div className={`col center`}>
-      <BrowserView>
-        <div className={`card ${className}`}>
-          <div className="card-content">{children}</div>
-        </div>
-      </BrowserView>
-      <MobileView>
-        <div className={`card ${className}`}>
-          <div className="card-content">{children}</div>
-        </div>
-      </MobileView>
+      {title && (
+        <>
+        <BrowserView>
+          {/* <SeparatorText width="10em" color="#d2c98d"> */}
+            <p className="card-title">{title}</p>          
+          {/* </SeparatorText> */}
+        </BrowserView>
+        <MobileView>
+          <p className="card-title">{title}</p>    
+        </MobileView>
+        </>
+      )}
+      <div className={`card ${className}`}>
+        <div className="card-content">{children}</div>
+      </div>
     </div>
   );
 };

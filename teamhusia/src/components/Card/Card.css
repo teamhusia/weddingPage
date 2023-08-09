@@ -7,6 +7,11 @@
   border-radius: 1em;
   transition: "height 2s";
   box-sizing: border-box;
+  overflow: hidden;
+}
+
+.card.empty {
+  background: none;
 }
 
 .browser .card {
@@ -57,4 +62,14 @@
 
 .card.contact {
   margin: 5em 0;
+}
+
+.card.livestream {
+  padding-top: 2.5em;
+}
+
+.card-title {
+  text-align: center;
+  color: #e1b150;
+  font-size: 3em;
 }

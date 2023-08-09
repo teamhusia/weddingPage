@@ -36,6 +36,12 @@ const Menu = ({}) => {
             </a> */}
             {/* <div className="divider" /> */}
             <a
+              href="#section-livestream"
+              onClick={e => handleScroll(e, "section-livestream")}
+            >
+              {t("MENU_LIVESTREAM")}
+            </a>
+            <a
               href="#section-invitation"
               onClick={e => handleScroll(e, "section-invitation")}
             >
