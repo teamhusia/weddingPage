@@ -27,14 +27,14 @@ const Menu = ({}) => {
         <div className={open ? "menu-content open" : "menu-content closed"}>
           <div className="menu-header">#TEAMHUSIA</div>
           <div className="navigation-list">
-            <a
+            {/* <a
               href="https://forms.gle/t4Aki38R7dKnPxZo7"
               target="_blank"
               // onClick={e => handleScroll(e, "section-rsvp")}
             >
               {t("MENU_RSVP")}
-            </a>
-            <div className="divider" />
+            </a> */}
+            {/* <div className="divider" /> */}
             <a
               href="#section-invitation"
               onClick={e => handleScroll(e, "section-invitation")}
