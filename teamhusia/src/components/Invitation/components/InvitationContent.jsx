@@ -90,7 +90,7 @@ const InvitationContent = () => {
           <p>{t("INVITATION_PLACE_2")}</p>
         </>
       )}
-      <CustomButton
+      {/* <CustomButton
         sx={{
           fontSize: "1.5em",
           textTransform: "none"
@@ -99,7 +99,7 @@ const InvitationContent = () => {
         href={"https://forms.gle/mkYpdCfC5VRLVEFj8"}
       >
         {t("RSVP_BUTTON_LABEL")}
-      </CustomButton>
+      </CustomButton> */}
     </StyledDiv>
   );
 };
