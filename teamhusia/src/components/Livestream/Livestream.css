@@ -1,16 +1,42 @@
 .iframe-container {
-  min-width: 100%;
-  /* min-height: 400px; */
-  aspect-ratio: 16 / 9;
 
   border-radius: 1em; 
   position:relative;
   overflow: hidden;
 }
 
+.browser .iframe-container {  
+  aspect-ratio: 16 / 9;
+  height: 90%;
+
+}
+.mobile .iframe-container { 
+  aspect-ratio: auto; 
+  width: 100%;
+  height: 100%;
+}
+
 #section-livestream {
   /* background-color: pink; */
-  min-height: calc(100vh - 5.5em);
+  height: calc(100vh - 5.5em);
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+#section-livestream>*,
+#section-livestream>*>*,
+#section-livestream>*>*>*,
+#section-livestream>*>*>*>*{
+  height: 100%;
+}
+#section-livestrea .card{
+  height: 500px;
+}
+
+
+#section-livestream>*>*>*>*>* {
+  width: 100%;
 }
 
 .livestream {

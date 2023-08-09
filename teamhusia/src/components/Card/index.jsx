@@ -10,12 +10,12 @@ const Card = ({ children, className, title }) => {
       {title && (
         <>
         <BrowserView>
-          {/* <SeparatorText width="10em" color="#d2c98d"> */}
-            <p className="card-title">{title}</p>          
-          {/* </SeparatorText> */}
+          <SeparatorText width="10em" color="#d2c98d">
+            <h1 className="card-title">{title}</h1>          
+          </SeparatorText>
         </BrowserView>
         <MobileView>
-          <p className="card-title">{title}</p>    
+          <h1 className="card-title">{title}</h1>    
         </MobileView>
         </>
       )}

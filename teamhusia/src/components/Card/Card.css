@@ -64,12 +64,23 @@
   margin: 5em 0;
 }
 
-.card.livestream {
-  padding-top: 2.5em;
-}
-
 .card-title {
   text-align: center;
   color: #e1b150;
+}
+
+.browser .card-title {
   font-size: 3em;
+}
+
+.mobile .card-title {
+  font-size: 2em;
+}
+
+.card.livestream {
+  flex-grow: 1;
+}
+
+.card.livestream>* {
+  height: 95%;
 }

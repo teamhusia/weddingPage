@@ -1,6 +1,6 @@
 export const kr = {
   translations: {
-    LIVESTREAM_TITLE: "Watch our wedding ceremony live",    
+    LIVESTREAM_TITLE: "Wedding ceremony live transmission",      
     
     INVITATION_HEADER: "",
     INVITATION_NAMES: "",

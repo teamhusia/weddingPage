@@ -116,4 +116,5 @@ h3 {
   justify-content: center;
   align-items: center;
   display: flex;
+  scroll-margin: -500px;
 }
