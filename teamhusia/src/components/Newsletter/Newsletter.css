@@ -1,0 +1,15 @@
+.newsletter h2 {
+  color: #fff;
+  margin-top: 2em;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-skip-ink: auto;
+  text-underline-offset: 0.25em;
+  text-decoration-color: #c6ae64;
+  /* text-decoration-color: rgb(243, 188, 40); */
+}
+
+.newsletter p {
+  color: #d5d5d8;
+  font-size: 0.9em;
+}

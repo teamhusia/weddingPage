@@ -48,6 +48,12 @@ const Menu = ({}) => {
               {t("MENU_HOME")}
             </a>
             <a
+              href="#section-newsletter"
+              onClick={e => handleScroll(e, "section-newsletter")}
+            >
+              {t("MENU_NEWSLETTER")}
+            </a>
+            <a
               href="#section-roadmap"
               onClick={e => handleScroll(e, "section-roadmap")}
             >

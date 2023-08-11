@@ -3,6 +3,7 @@ import Footer from "../Footer";
 import Invitation from "../Invitation";
 import Livestream from "../Livestream";
 import Menu from "../Menu";
+import Newsletter from "../Newsletter";
 import ProgressiveBackground from "../ProgressiveBackground";
 import Roadmap from "../Roadmap";
 import Schedule from "../Schedule";
@@ -19,6 +20,7 @@ const FrontPage = () => {
         <Menu />
         <Livestream />
         <Invitation />
+        <Newsletter />
         {/* <CountDown /> */}
         <Roadmap />
         <Schedule />
