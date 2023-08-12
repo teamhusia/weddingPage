@@ -72,9 +72,9 @@ export const en = {
     NEWSLETTER_INFO5: "The Holy Mass begins at 15:00, but please arrive a few minutes early.",
     
     NEWSLETTER_TITLE6: "WELL WISHES AND BUS TO STARY KAMIONEK",
-    NEWSLETTER_INFO6: "After the Mass, please bypass the queue for well wishes, and wedding guests are invited straight to the bus. If you encounter any issues, look for our beautiful bridesmaids or (equally handsome) best man.",
+    NEWSLETTER_INFO6: "After the Mass, please bypass the queue for offering us your well wishes. All wedding guests are invited to make their way straight to the bus. If you encounter any issues, look for our beautiful bridesmaids or (equally handsome) best man.",
    
-    NEWSLETTER_INFO62: "f you'd like to give us a gift, consider wine or coffee instead of flowers.",
+    NEWSLETTER_INFO62: "If you'd like to give us a gift, consider wine or coffee instead of flowers.",
     NEWSLETTER_TITLE7: "RETURN JOURNEY",
     NEWSLETTER_INFO7: "The bus departs from Stary Kamionek at 4:30 in the morning. Stops include: Rondo Rataje, Ibis Poznań, Strzeszyn Loop, Morszyńska, Ilonn Hotel (order of the stops not yet determined).",
     NEWSLETTER_INFO72: "For those who expressed the need for an earlier return, the bus departs at 00:30. Stops: Podolany - SP62, Podolany - Ilonn Hotel, Strzeszyn, Old Town vicinity (order of the stops not yet determined).",
